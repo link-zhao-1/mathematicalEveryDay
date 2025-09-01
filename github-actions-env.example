@@ -1,0 +1,33 @@
+# GitHub Actions Environment Configuration
+# 这个文件展示了需要在GitHub Secrets中设置的环境变量
+
+# =================================
+# AI模型配置 (选择一个)
+# =================================
+
+# DeepSeek API (推荐)
+DEEPSEEK_API_KEY=sk-your-deepseek-api-key-here
+
+# 豆包 API  
+DOUBAO_API_KEY=your-doubao-api-key-here
+
+# OpenAI API
+OPENAI_API_KEY=sk-your-openai-api-key-here
+
+# =================================
+# GitHub Actions Variables
+# =================================
+
+# 当前使用的AI模型 (在Repository Variables中设置)
+AI_MODEL=deepseek
+
+# =================================
+# 说明
+# =================================
+
+# 1. 将上述密钥设置为GitHub Repository Secrets
+# 2. 在仓库设置 → Secrets and variables → Actions 中添加
+# 3. AI_MODEL 设置为Repository Variable (不是Secret)
+# 4. GitHub Actions会自动使用这些环境变量
+
+# 注意：GITHUB_TOKEN 会自动提供，无需手动设置

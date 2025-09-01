@@ -1,0 +1,82 @@
+name: Generate Daily Problem
+
+on:
+  # 每天北京时间9点（UTC+8）生成题目，即UTC时间1点
+  schedule:
+    - cron: '0 1 * * *'
+  
+  # 允许手动触发
+  workflow_dispatch:
+    inputs:
+      category:
+        description: 'Problem category (optional)'
+        required: false
+        type: choice
+        options:
+          - ''
+          - differential
+          - integral
+          - differential_equation
+          - multivariable_differential
+          - multiple_integral
+          - series
+          - linear_algebra
+          - probability
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Configure Git
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+
+    - name: Check if today's problem exists
+      id: check
+      run: |
+        TODAY=$(date +%Y-%m-%d)
+        echo "today=$TODAY" >> $GITHUB_OUTPUT
+        if find questions -name "*$TODAY*" | grep -q .; then
+          echo "exists=true" >> $GITHUB_OUTPUT
+          echo "Problem already exists for $TODAY"
+        else
+          echo "exists=false" >> $GITHUB_OUTPUT
+          echo "No problem found for $TODAY"
+        fi
+
+    - name: Generate problem
+      if: steps.check.outputs.exists == 'false'
+      run: |
+        if [ -n "${{ github.event.inputs.category }}" ]; then
+          npm start generate-problem -c ${{ github.event.inputs.category }}
+        else
+          npm start generate-problem
+        fi
+      env:
+        DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        DOUBAO_API_KEY: ${{ secrets.DOUBAO_API_KEY }}
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        AI_MODEL: ${{ vars.AI_MODEL || 'deepseek' }}
+
+    - name: Commit and push
+      if: steps.check.outputs.exists == 'false'
+      run: |
+        git add .
+        git commit -m "Add daily problem for ${{ steps.check.outputs.today }}" || exit 0
+        git push
