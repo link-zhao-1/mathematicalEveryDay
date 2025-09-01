@@ -12,6 +12,7 @@ import SolutionGenerator from './services/solutionGenerator.js';
 import GitService from './services/gitService.js';
 import { getCategoriesArray } from './utils/categories.js';
 import { getProblemStatistics } from './utils/problemTracker.js';
+import { generateUniquenessReport, checkForDuplicates } from './utils/duplicateChecker.js';
 
 const program = new Command();
 
@@ -174,6 +175,64 @@ program
       console.log(`   Description: ${category.description}`);
       console.log(`   Folder: ${category.folder}\n`);
     });
+  });
+
+/**
+ * Check for duplicate problems
+ */
+program
+  .command('check-duplicates')
+  .description('Check for duplicate or similar problems')
+  .option('-v, --verbose', 'Show detailed similarity information')
+  .action(async (options) => {
+    try {
+      console.log('🔍 Analyzing problem uniqueness...');
+      
+      const report = await generateUniquenessReport();
+      
+      console.log('\n📊 Uniqueness Report:');
+      console.log(`  Total problems: ${report.totalProblems}`);
+      console.log(`  Uniqueness score: ${(report.uniquenessScore * 100).toFixed(1)}%`);
+      console.log(`  Duplicate pairs: ${report.duplicatePairs.length}`);
+      console.log(`  Similar pairs: ${report.highSimilarityPairs.length}`);
+      
+      if (report.duplicatePairs.length > 0) {
+        console.log('\n❌ Duplicate Problems Found:');
+        report.duplicatePairs.forEach((pair, index) => {
+          console.log(`\n${index + 1}. Similarity: ${(pair.similarity.overall * 100).toFixed(1)}%`);
+          console.log(`   Problem 1: ${pair.problem1.problem.title}`);
+          console.log(`   Problem 2: ${pair.problem2.problem.title}`);
+          
+          if (options.verbose) {
+            console.log(`   Title similarity: ${(pair.similarity.title * 100).toFixed(1)}%`);
+            console.log(`   Description similarity: ${(pair.similarity.description * 100).toFixed(1)}%`);
+            console.log(`   Concept similarity: ${(pair.similarity.concept * 100).toFixed(1)}%`);
+          }
+        });
+      }
+      
+      if (report.highSimilarityPairs.length > 0 && options.verbose) {
+        console.log('\n⚠️ Highly Similar Problems:');
+        report.highSimilarityPairs.slice(0, 5).forEach((pair, index) => {
+          console.log(`\n${index + 1}. Similarity: ${(pair.similarity.overall * 100).toFixed(1)}%`);
+          console.log(`   Problem 1: ${pair.problem1.problem.title}`);
+          console.log(`   Problem 2: ${pair.problem2.problem.title}`);
+        });
+      }
+      
+      console.log('\n📚 Category Distribution:');
+      Object.entries(report.categoryDistribution).forEach(([category, count]) => {
+        console.log(`  ${category}: ${count}`);
+      });
+      
+      if (report.duplicatePairs.length === 0) {
+        console.log('\n✅ No duplicate problems found!');
+      }
+      
+    } catch (error) {
+      console.error('❌ Failed to check duplicates:', error.message);
+      process.exit(1);
+    }
   });
 
 /**

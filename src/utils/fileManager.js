@@ -178,7 +178,7 @@ function generateSolutionMarkdown(solutionData) {
       markdown += `**${step.step}. ${step.title}**\n\n`;
       markdown += `${step.content}\n\n`;
       if (step.formula) {
-        markdown += `公式：`${step.formula}`\n\n`;
+        markdown += `$$${step.formula}$$\n\n`;
       }
     });
   }

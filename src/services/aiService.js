@@ -65,9 +65,10 @@ class AIService {
   /**
    * Generate a mathematical problem for a specific category
    * @param {Object} category - The category object
+   * @param {string} additionalContext - Additional context to avoid duplicates
    * @returns {Promise<Object>} Object containing problem details
    */
-  async generateProblem(category) {
+  async generateProblem(category, additionalContext = '') {
     const prompt = `请生成一道${category.name}(${category.englishName})的高等数学题目。
 
 要求：
@@ -86,6 +87,8 @@ class AIService {
   "tags": ["相关标签"],
   "hints": ["解题提示1", "解题提示2"]
 }
+
+${additionalContext}
 
 注意：请确保返回的是有效的JSON格式。`;
 
