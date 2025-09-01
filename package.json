@@ -1,0 +1,35 @@
+{
+  "name": "mathematical-everyday",
+  "version": "1.0.0",
+  "description": "Daily mathematical questions generator with AI",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "generate-problem": "node src/scripts/generateProblem.js",
+    "generate-answer": "node src/scripts/generateAnswer.js",
+    "schedule": "node src/scheduler.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "mathematics",
+    "AI",
+    "daily",
+    "questions",
+    "calculus"
+  ],
+  "author": "linkzhao",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "node-cron": "^3.0.3",
+    "simple-git": "^3.20.0",
+    "dotenv": "^16.3.1",
+    "fs-extra": "^11.1.1",
+    "moment": "^2.29.4",
+    "commander": "^11.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
