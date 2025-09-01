@@ -40,8 +40,4 @@ jobs:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         AI_MODEL: ${{ vars.AI_MODEL || 'deepseek' }}
 
-    - name: Commit and push
-      run: |
-        git add .
-        git commit -m "Add answers for $(date +%Y-%m-%d)" || exit 0
-        git push
+    # Note: git commit and push are handled inside the generate-solutions script
