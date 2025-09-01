@@ -1,9 +1,9 @@
 name: Daily Mathematical Problem Generator
 
 on:
-  # 每天北京时间9点（UTC+8）运行，即UTC时间1点
+  # 每天北京时间17:05（UTC+8）运行，即UTC时间9:05
   schedule:
-    - cron: '0 1 * * *'
+    - cron: '5 9 * * *'
   
   # 每天北京时间20点运行答案生成，即UTC时间12点  
   schedule:
