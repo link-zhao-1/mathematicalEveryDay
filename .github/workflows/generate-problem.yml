@@ -1,9 +1,9 @@
 name: Generate Daily Problem
 
 on:
-  # 每天北京时间17:05（UTC+8）生成题目，即UTC时间9:05
+  # 每天北京时间17:10（UTC+8）生成题目，即UTC时间9:10
   schedule:
-    - cron: '5 9 * * *'
+    - cron: '10 9 * * *'
   
   # 允许手动触发
   workflow_dispatch:
