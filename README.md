@@ -15,10 +15,9 @@
 <!-- HISTORY_TABLE_PLACEHOLDER -->
 | 日期 | 题目 | 分类 | 难度 | 状态 | 链接 |
 |------|------|------|------|------|------|
-| 2025-09-01 | 矩阵的幂与特征值 | 线性代数 | 中等 | ⏳ 待答 | [查看](questions/linear-algebra/2025-09-01-problem.md) |
-| 2025-09-01 | 随机变量函数的概率密度函数与期望计算 | 概率统计 | 中等 | ⏳ 待答 | [查看](questions/probability-statistics/2025-09-01-problem.md) |
+| 2025-09-01 | 判断级数求和n从1到无穷大lnn除以n的p次方的收敛性 | 级数 | 中等 | ⏳ 待答 | [查看](questions/series/2025-09-01-problem.md) |
 
-*共2道题目*
+*共1道题目*
 <!-- END_HISTORY_TABLE_PLACEHOLDER -->
 
 ## 🔗 分类浏览
