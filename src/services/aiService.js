@@ -84,8 +84,7 @@ class AIService {
   "category": "${category.name}",
   "difficulty": "difficulty level (简单/中等/困难)",
   "tags": ["相关标签"],
-  "hints": ["解题提示1", "解题提示2"],
-  "source_type": "题目来源类型，如考研真题风格、经典教材等"
+  "hints": ["解题提示1", "解题提示2"]
 }
 
 注意：请确保返回的是有效的JSON格式。`;

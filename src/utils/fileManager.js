@@ -39,7 +39,7 @@ export async function createProblemFile(problemData) {
  * @returns {string} The markdown content
  */
 function generateProblemMarkdown(problemData, date) {
-  const { title, description, category, difficulty, tags, hints, source_type } = problemData;
+  const { title, description, category, difficulty, tags, hints } = problemData;
   
   let markdown = `# ${title}\n\n`;
   
@@ -48,7 +48,6 @@ function generateProblemMarkdown(problemData, date) {
   markdown += `- **日期**: ${date}\n`;
   markdown += `- **分类**: ${category}\n`;
   markdown += `- **难度**: ${difficulty}\n`;
-  markdown += `- **来源**: ${source_type}\n`;
   
   if (tags && tags.length > 0) {
     markdown += `- **标签**: ${tags.map(tag => `\`${tag}\``).join(', ')}\n`;
@@ -116,13 +115,11 @@ function parseProblemMarkdown(content) {
   const dateMatch = content.match(/\*\*日期\*\*: (.+)/);
   const categoryMatch = content.match(/\*\*分类\*\*: (.+)/);
   const difficultyMatch = content.match(/\*\*难度\*\*: (.+)/);
-  const sourceMatch = content.match(/\*\*来源\*\*: (.+)/);
   const tagsMatch = content.match(/\*\*标签\*\*: (.+)/);
   
   problemData.date = dateMatch ? dateMatch[1] : null;
   problemData.category = categoryMatch ? categoryMatch[1] : null;
   problemData.difficulty = difficultyMatch ? difficultyMatch[1] : null;
-  problemData.source_type = sourceMatch ? sourceMatch[1] : null;
   problemData.tags = tagsMatch ? tagsMatch[1].split(', ').map(tag => tag.replace(/`/g, '')) : [];
   
   // Extract description
@@ -181,7 +178,7 @@ function generateSolutionMarkdown(solutionData) {
       markdown += `**${step.step}. ${step.title}**\n\n`;
       markdown += `${step.content}\n\n`;
       if (step.formula) {
-        markdown += `$$${step.formula}$$\n\n`;
+        markdown += `公式：`${step.formula}`\n\n`;
       }
     });
   }
