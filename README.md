@@ -1,11 +1,11 @@
 # Mathematical Everyday 📚
 
-每天用AI自动生成高等数学题目的项目，支持自动答案生成和GitHub自动提交。
+每天用AI自动生成高等数学问题的项目，支持自动答案生成和GitHub自动提交。
 
 ## ✨ 功能特性
 
 - 🤖 **AI驱动生成**: 支持DeepSeek、豆包等多种AI模型
-- 📅 **每日自动化**: 定时生成题目和答案
+- 📅 **每日自动化**: 定时生成问题和答案
 - 📊 **智能分类**: 微分、积分、微分方程等8大数学分类
 - 🔄 **自动提交**: 自动提交到GitHub仓库
 - 📐 **数学符号**: 完整支持LaTeX数学公式
@@ -30,7 +30,7 @@ mathematicalEveryDay/
 │   ├── scripts/          # 独立脚本
 │   ├── scheduler.js      # 定时任务调度
 │   └── index.js          # 主入口
-├── problems/             # 生成的题目存储
+├── questions/            # 生成的问题存储
 │   ├── differential/     # 微分学
 │   ├── integral/         # 积分学
 │   ├── differential-equations/ # 微分方程

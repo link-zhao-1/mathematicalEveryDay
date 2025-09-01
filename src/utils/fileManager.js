@@ -16,7 +16,7 @@ export async function createProblemFile(problemData) {
   const categoryFolder = problemData.categoryFolder;
   
   // Create directory structure
-  const problemDir = path.join(PROJECT_ROOT, 'problems', categoryFolder);
+  const problemDir = path.join(PROJECT_ROOT, 'questions', categoryFolder);
   await fs.ensureDir(problemDir);
   
   // Generate filename
@@ -226,7 +226,7 @@ function generateSolutionMarkdown(solutionData) {
  * @returns {Promise<Array>} Array of problem file paths
  */
 export async function getAllProblemFiles() {
-  const problemsDir = path.join(PROJECT_ROOT, 'problems');
+  const problemsDir = path.join(PROJECT_ROOT, 'questions');
   
   if (!await fs.pathExists(problemsDir)) {
     return [];

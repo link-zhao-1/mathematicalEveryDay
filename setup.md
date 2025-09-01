@@ -137,7 +137,7 @@ nvm use 18      # 如果使用nvm
 ```
 mathematicalEveryDay/
 ├── src/
-├── problems/
+├── questions/
 ├── package.json
 ├── .env
 └── README.md
