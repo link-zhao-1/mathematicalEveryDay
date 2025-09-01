@@ -13,6 +13,7 @@ import GitService from './services/gitService.js';
 import { getCategoriesArray } from './utils/categories.js';
 import { getProblemStatistics } from './utils/problemTracker.js';
 import { generateUniquenessReport, checkForDuplicates } from './utils/duplicateChecker.js';
+import { getHistoryStatistics, cleanupHistory, exportHistory } from './utils/problemHistory.js';
 
 const program = new Command();
 
@@ -231,6 +232,99 @@ program
       
     } catch (error) {
       console.error('❌ Failed to check duplicates:', error.message);
+      process.exit(1);
+    }
+  });
+
+/**
+ * History management commands
+ */
+const historyCommand = program
+  .command('history')
+  .description('Manage problem history');
+
+historyCommand
+  .command('stats')
+  .description('Show problem history statistics')
+  .action(async () => {
+    try {
+      console.log('📊 Loading history statistics...');
+      
+      const stats = await getHistoryStatistics();
+      
+      console.log('\n📈 History Statistics:');
+      console.log(`  Total problems in history: ${stats.totalProblems}`);
+      
+      console.log('\n📚 Category Distribution:');
+      Object.entries(stats.categoryDistribution)
+        .sort((a, b) => b[1] - a[1])
+        .forEach(([category, count]) => {
+          console.log(`  ${category}: ${count}`);
+        });
+      
+      console.log('\n📊 Difficulty Distribution:');
+      Object.entries(stats.difficultyDistribution)
+        .forEach(([difficulty, count]) => {
+          console.log(`  ${difficulty}: ${count}`);
+        });
+      
+      console.log('\n🔤 Top Keywords:');
+      Object.entries(stats.keywordFrequency)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 10)
+        .forEach(([keyword, count]) => {
+          console.log(`  ${keyword}: ${count}`);
+        });
+      
+      console.log('\n📅 Creation Trend (by month):');
+      Object.entries(stats.creationTrend)
+        .sort()
+        .forEach(([month, count]) => {
+          console.log(`  ${month}: ${count}`);
+        });
+      
+    } catch (error) {
+      console.error('❌ Failed to get history statistics:', error.message);
+      process.exit(1);
+    }
+  });
+
+historyCommand
+  .command('cleanup')
+  .description('Clean up old history records')
+  .option('-n, --max-records <number>', 'Maximum records to keep', '1000')
+  .action(async (options) => {
+    try {
+      const maxRecords = parseInt(options.maxRecords);
+      console.log(`🧹 Cleaning up history, keeping last ${maxRecords} records...`);
+      
+      const removedCount = await cleanupHistory(maxRecords);
+      
+      if (removedCount > 0) {
+        console.log(`✅ Removed ${removedCount} old records`);
+      } else {
+        console.log('✅ No cleanup needed');
+      }
+      
+    } catch (error) {
+      console.error('❌ Failed to cleanup history:', error.message);
+      process.exit(1);
+    }
+  });
+
+historyCommand
+  .command('export')
+  .description('Export history to JSON file')
+  .option('-o, --output <file>', 'Output file path', 'problem-history-export.json')
+  .action(async (options) => {
+    try {
+      console.log(`📤 Exporting history to ${options.output}...`);
+      
+      await exportHistory(options.output);
+      console.log('✅ History exported successfully');
+      
+    } catch (error) {
+      console.error('❌ Failed to export history:', error.message);
       process.exit(1);
     }
   });

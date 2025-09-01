@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1756713192305_i7v016bfp",
+    "title": "参数曲线与隐函数微分综合题",
+    "category": "微分学",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "微分",
+      "方程",
+      "tan",
+      "ln"
+    ],
+    "createdAt": "2025-09-01T07:53:12.305Z",
+    "filePath": "/Users/linkzhao/learning/mathematicalEveryDay/questions/differential/2025-09-01-problem.md",
+    "titleHash": 0,
+    "contentHash": 1872225611
+  },
+  {
+    "id": "1756713343481_kriy6fvln",
+    "title": "多元函数极值与条件极值",
+    "category": "多元微分",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "极值"
+    ],
+    "createdAt": "2025-09-01T07:55:43.481Z",
+    "filePath": "/Users/linkzhao/learning/mathematicalEveryDay/questions/multivariable-differential/2025-09-01-problem.md",
+    "titleHash": 0,
+    "contentHash": 1229266081
+  },
+  {
+    "id": "1756713427749_ijp99b5a0",
+    "title": "计算三重积分",
+    "category": "多重积分",
+    "difficulty": "中等",
+    "keywords": [
+      "积分"
+    ],
+    "createdAt": "2025-09-01T07:57:07.749Z",
+    "filePath": "/Users/linkzhao/learning/mathematicalEveryDay/questions/multiple-integrals/2025-09-01-problem.md",
+    "titleHash": 0,
+    "contentHash": 1110192996
+  }
+]
