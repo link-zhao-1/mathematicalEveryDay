@@ -14,6 +14,7 @@ import { getCategoriesArray } from './utils/categories.js';
 import { getProblemStatistics } from './utils/problemTracker.js';
 import { generateUniquenessReport, checkForDuplicates } from './utils/duplicateChecker.js';
 import { getHistoryStatistics, cleanupHistory, exportHistory } from './utils/problemHistory.js';
+import { updateReadme, generateStatsSummary } from './utils/readmeUpdater.js';
 
 const program = new Command();
 
@@ -232,6 +233,30 @@ program
       
     } catch (error) {
       console.error('❌ Failed to check duplicates:', error.message);
+      process.exit(1);
+    }
+  });
+
+/**
+ * Update README
+ */
+program
+  .command('update-readme')
+  .description('Update README.md with current problems')
+  .action(async () => {
+    try {
+      console.log('📝 Updating README.md...');
+      
+      await updateReadme();
+      const statsSummary = await generateStatsSummary();
+      
+      console.log('✅ README updated successfully');
+      if (statsSummary) {
+        console.log(statsSummary);
+      }
+      
+    } catch (error) {
+      console.error('❌ Failed to update README:', error.message);
       process.exit(1);
     }
   });

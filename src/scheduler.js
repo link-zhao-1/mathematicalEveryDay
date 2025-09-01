@@ -4,6 +4,7 @@ import ProblemGenerator from './services/problemGenerator.js';
 import SolutionGenerator from './services/solutionGenerator.js';
 import GitService from './services/gitService.js';
 import { problemExistsForToday } from './utils/problemTracker.js';
+import { updateReadme } from './utils/readmeUpdater.js';
 
 /**
  * Scheduler class for managing automated tasks
@@ -133,7 +134,15 @@ class Scheduler {
       console.log(`📂 Category: ${problemData.category}`);
       console.log(`📊 Difficulty: ${problemData.difficulty}`);
       
-      // Commit to git
+      // Update README
+      try {
+        await updateReadme();
+        console.log('📝 README updated with new problem');
+      } catch (error) {
+        console.error('⚠️ Failed to update README:', error.message);
+      }
+      
+      // Commit to git (including README changes)
       const gitResult = await this.gitService.commitNewProblem(problemData, problemData.filePath);
       
       if (gitResult.committed) {
@@ -183,6 +192,14 @@ class Scheduler {
               if (gitResult.pushed) {
                 console.log('🚀 Solution pushed to GitHub successfully');
               }
+            }
+            
+            // Update README to reflect answer status
+            try {
+              await updateReadme();
+              console.log('📝 README updated with solution status');
+            } catch (error) {
+              console.error('⚠️ Failed to update README:', error.message);
             }
           } catch (error) {
             console.error(`❌ Failed to commit solution for ${result.problemFile}:`, error);

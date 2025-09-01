@@ -42,5 +42,37 @@
     "filePath": "/Users/linkzhao/learning/mathematicalEveryDay/questions/multiple-integrals/2025-09-01-problem.md",
     "titleHash": 0,
     "contentHash": 1110192996
+  },
+  {
+    "id": "1756714165414_e1v08s3rh",
+    "title": "矩阵的幂与特征值",
+    "category": "线性代数",
+    "difficulty": "中等",
+    "keywords": [
+      "矩阵",
+      "行列式",
+      "特征值"
+    ],
+    "createdAt": "2025-09-01T08:09:25.414Z",
+    "filePath": "/Users/linkzhao/learning/mathematicalEveryDay/questions/linear-algebra/2025-09-01-problem.md",
+    "titleHash": 0,
+    "contentHash": 886117608
+  },
+  {
+    "id": "1756714394011_9jcll2888",
+    "title": "随机变量函数的概率密度函数与期望计算",
+    "category": "概率统计",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "概率",
+      "随机",
+      "分布",
+      "期望"
+    ],
+    "createdAt": "2025-09-01T08:13:14.011Z",
+    "filePath": "/Users/linkzhao/learning/mathematicalEveryDay/questions/probability-statistics/2025-09-01-problem.md",
+    "titleHash": 0,
+    "contentHash": 1509900652
   }
 ]

@@ -3,6 +3,7 @@ import { getRandomCategory, getCategoriesArray } from '../utils/categories.js';
 import { createProblemFile } from '../utils/fileManager.js';
 import { checkForDuplicates, getSimilarProblemsInCategory } from '../utils/duplicateChecker.js';
 import { addProblemToHistory, checkSimilarityInHistory } from '../utils/problemHistory.js';
+import { addTodaysProblemToReadme } from '../utils/readmeUpdater.js';
 
 /**
  * Problem Generator Service
@@ -76,6 +77,9 @@ class ProblemGenerator {
       
       // Add to history
       const problemId = await addProblemToHistory(problemData, filePath);
+      
+      // Update README with today's problem
+      await addTodaysProblemToReadme(problemData, filePath);
       
       console.log(`Problem generated successfully: ${filePath}`);
       console.log(`Problem ID: ${problemId}`);
