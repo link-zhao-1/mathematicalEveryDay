@@ -41,9 +41,9 @@ export const getConfig = () => {
       }
     },
     github: {
-      token: process.env.GITHUB_TOKEN,
-      username: process.env.GITHUB_USERNAME,
-      repo: process.env.GITHUB_REPO || 'mathematicalEveryDay'
+      token: process.env.USER_TOKEN,
+      username: process.env.USER_USERNAME,
+      repo: process.env.USER_REPO || 'mathematicalEveryDay'
     },
     schedule: {
       problemTime: process.env.GENERATE_PROBLEM_TIME || '09:00',
