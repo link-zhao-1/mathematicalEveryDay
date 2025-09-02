@@ -13,9 +13,9 @@
 ## 📚 历史题目
 
 <!-- HISTORY_TABLE_PLACEHOLDER -->
-| 日期 | 题目 | 分类 | 难度 | 状态 | 链接 |
-|------|------|------|------|------|------|
-| 2025-09-02 | 计算三重积分 | 多重积分 | 中等 | ⏳ 待答 | [查看](questions/multiple-integrals/2025-09-02-problem.md) |
+| 日期 | 题目 | 分类 | 难度  | 链接 |
+|------|------|------|------|------|
+| 2025-09-02 | 计算三重积分 | 多重积分 | 中等  | [查看](questions/multiple-integrals/2025-09-02-problem.md) |
 
 *共1道题目*
 <!-- END_HISTORY_TABLE_PLACEHOLDER -->

@@ -88,8 +88,8 @@ async function updateHistoryTable(readmeContent) {
   let tableContent;
   
   if (allProblems.length === 0) {
-    tableContent = `| 日期 | 题目 | 分类 | 难度 | 状态 | 链接 |
-|------|------|------|------|------|------|
+    tableContent = `| 日期 | 题目 | 分类 | 难度  | 链接 |
+|------|------|------|------|------|
 | 暂无历史题目 | - | - | - | - | - |`;
   } else {
     // Sort problems by date (newest first)
@@ -105,8 +105,8 @@ async function updateHistoryTable(readmeContent) {
     const maxDisplay = 50; // 显示最多50道题目
     const displayProblems = allProblems.slice(0, maxDisplay);
     
-    tableContent = `| 日期 | 题目 | 分类 | 难度 | 状态 | 链接 |
-|------|------|------|------|------|------|`;
+    tableContent = `| 日期 | 题目 | 分类 | 难度  | 链接 |
+|------|------|------|------|------|`;
     
     for (const problem of displayProblems) {
       const relativeLink = path.relative(PROJECT_ROOT, problem.filePath).replace(/\\/g, '/');
@@ -118,7 +118,7 @@ async function updateHistoryTable(readmeContent) {
       const displayCategory = problem.category || 'Unknown';
       const displayDifficulty = problem.difficulty || 'Unknown';
       
-      tableContent += `\n| ${displayDate} | ${displayTitle} | ${displayCategory} | ${displayDifficulty} | ${statusIcon} | [查看](${relativeLink}) |`;
+      tableContent += `\n| ${displayDate} | ${displayTitle} | ${displayCategory} | ${displayDifficulty} | [查看](${relativeLink}) |`;
     }
     
     if (allProblems.length > maxDisplay) {
