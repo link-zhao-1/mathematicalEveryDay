@@ -8,25 +8,19 @@
  * @param {string} latex - The LaTeX formula
  * @param {Object} options - Rendering options
  * @param {string} options.format - Image format ('svg', 'png', 'gif')
- * @param {string} options.color - Text color (hex without #, e.g., '000000')
- * @param {string} options.background - Background color (hex without #, e.g., 'ffffff')
- * @param {number} options.size - Font size (10-20)
  * @returns {string} The image URL
  */
 export function renderLatexToImage(latex, options = {}) {
   const {
-    format = 'svg',
-    color = '000000',
-    background = 'ffffff',
-    size = 12
+    format = 'svg'
   } = options;
   
   // Encode the LaTeX formula for URL
   const encodedLatex = encodeURIComponent(latex);
   
-  // Use CodeCogs LaTeX renderer
+  // Use CodeCogs LaTeX renderer with simplified format
   const baseUrl = 'https://latex.codecogs.com';
-  const url = `${baseUrl}/${format}.latex?\\dpi{110}\\bg_${background}\\color{${color}}\\large${encodedLatex}`;
+  const url = `${baseUrl}/${format}.latex?${encodedLatex}`;
   
   return url;
 }
@@ -38,7 +32,7 @@ export function renderLatexToImage(latex, options = {}) {
  * @returns {string} The SVG image URL
  */
 export function renderLatexToSVG(latex, options = {}) {
-  return renderLatexToImage(latex, { ...options, format: 'svg' });
+  return renderLatexToImage(latex, { format: 'svg' });
 }
 
 /**
@@ -48,17 +42,17 @@ export function renderLatexToSVG(latex, options = {}) {
  * @returns {string} The PNG image URL
  */
 export function renderLatexToPNG(latex, options = {}) {
-  return renderLatexToImage(latex, { ...options, format: 'png' });
+  return renderLatexToImage(latex, { format: 'png' });
 }
 
 /**
  * Create markdown image syntax for LaTeX formula
  * @param {string} latex - The LaTeX formula
- * @param {string} alt - Alternative text for the image
+ * @param {string} alt - Alternative text for the image (defaults to 'equation')
  * @param {Object} options - Rendering options
  * @returns {string} Markdown image syntax
  */
-export function createLatexMarkdown(latex, alt = 'Mathematical Formula', options = {}) {
+export function createLatexMarkdown(latex, alt = 'equation', options = {}) {
   const imageUrl = renderLatexToSVG(latex, options);
   return `![${alt}](${imageUrl})`;
 }
@@ -72,18 +66,17 @@ export function createLatexMarkdown(latex, alt = 'Mathematical Formula', options
  */
 export function createInlineLatexMarkdown(latex, fallback = '', options = {}) {
   const imageUrl = renderLatexToSVG(latex, options);
-  const altText = fallback || latex;
-  return `![${altText}](${imageUrl} "${latex}")`;
+  return `![equation](${imageUrl})`;
 }
 
 /**
  * Create block LaTeX markdown (centered)
  * @param {string} latex - The LaTeX formula
- * @param {string} alt - Alternative text for the image
+ * @param {string} alt - Alternative text for the image (defaults to 'equation')
  * @param {Object} options - Rendering options
  * @returns {string} Centered markdown image
  */
-export function createBlockLatexMarkdown(latex, alt = 'Mathematical Formula', options = {}) {
+export function createBlockLatexMarkdown(latex, alt = 'equation', options = {}) {
   const imageUrl = renderLatexToSVG(latex, options);
   return `<div align="center">\n\n![${alt}](${imageUrl})\n\n</div>`;
 }

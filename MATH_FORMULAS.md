@@ -87,8 +87,17 @@ g(x) = { x²+1,      当 x > 1
 ### 自动渲染机制
 - 系统自动检测 `$...$` 和 `$$...$$` 格式的 LaTeX 公式
 - 使用 CodeCogs 在线服务将公式转换为 SVG 图片
-- 生成的图片自动嵌入到 Markdown 中
+- 生成简洁的图片链接格式：`![equation](https://latex.codecogs.com/svg.latex?...)`
 - 支持高质量的矢量图形，在所有设备上都清晰显示
+- 使用标准的 alt 文本 "equation"，确保最佳兼容性
+
+### 渲染示例
+LaTeX 输入：`$$\int_{0}^{2\pi}d\theta\int_{0}^{2}r^3(4-r^2)dr$$`
+
+生成的 Markdown：
+```markdown
+![equation](https://latex.codecogs.com/svg.latex?\int_{0}^{2\pi}d\theta\int_{0}^{2}r^3(4-r^2)dr)
+```
 
 ### 备用文字格式（兼容性保证）
 ```
