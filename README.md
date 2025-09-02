@@ -5,8 +5,8 @@
 ## 📅 今日题目
 
 <!-- TODAY_PROBLEM_PLACEHOLDER -->
-📅 **2025-09-02** - [求解二阶常系数线性非齐次微分方程](questions/differential-equations/2025-09-02-problem.md)
-- **分类**: 微分方程
+📅 **2025-09-02** - [计算三重积分](questions/multiple-integrals/2025-09-02-problem.md)
+- **分类**: 多重积分
 - **难度**: 中等
 <!-- END_TODAY_PROBLEM_PLACEHOLDER -->
 
@@ -15,10 +15,9 @@
 <!-- HISTORY_TABLE_PLACEHOLDER -->
 | 日期 | 题目 | 分类 | 难度 | 状态 | 链接 |
 |------|------|------|------|------|------|
-| 2025-09-02 | 求解二阶常系数线性非齐次微分方程 | 微分方程 | 中等 | ⏳ 待答 | [查看](questions/differential-equations/2025-09-02-problem.md) |
-| 2025-09-01 | 判断级数求和n从1到无穷大lnn除以n的p次方的收敛性 | 级数 | 中等 | ⏳ 待答 | [查看](questions/series/2025-09-01-problem.md) |
+| 2025-09-02 | 计算三重积分 | 多重积分 | 中等 | ⏳ 待答 | [查看](questions/multiple-integrals/2025-09-02-problem.md) |
 
-*共2道题目*
+*共1道题目*
 <!-- END_HISTORY_TABLE_PLACEHOLDER -->
 
 ## 🔗 分类浏览

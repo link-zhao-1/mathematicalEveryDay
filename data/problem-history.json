@@ -30,5 +30,18 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential-equations/2025-09-02-problem.md",
     "titleHash": 0,
     "contentHash": 1446909304
+  },
+  {
+    "id": "1756779056345_m7taz16tg",
+    "title": "计算三重积分",
+    "category": "多重积分",
+    "difficulty": "中等",
+    "keywords": [
+      "积分"
+    ],
+    "createdAt": "2025-09-02T02:10:56.345Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multiple-integrals/2025-09-02-problem.md",
+    "titleHash": 0,
+    "contentHash": 489256340
   }
 ]
