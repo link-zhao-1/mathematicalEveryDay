@@ -73,10 +73,10 @@ program
   });
 
 /**
- * Generate solutions
+ * Generate answer
  */
 program
-  .command('generate-solutions')
+  .command('generate-answer')
   .description('Generate solutions for problems without answers')
   .option('-f, --file <file>', 'Specific problem file path')
   .action(async (options) => {
@@ -103,8 +103,11 @@ program
         const problemData = await readProblemFile(result.problemFile);
         const gitResult = await gitService.commitSolution(problemData, result.problemFile);
         
-        if (gitResult.committed && gitResult.pushed) {
-          console.log(`✅ Committed and pushed solution for: ${problemData.title}`);
+        if (gitResult.committed) {
+          console.log(`✅ Committed to git: ${gitResult.hash}`);
+          if (gitResult.pushed) {
+            console.log('🚀 Pushed to GitHub successfully');
+          }
         }
       }
       

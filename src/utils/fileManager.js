@@ -156,6 +156,7 @@ export async function updateProblemWithSolution(filePath, solutionData) {
     
     // Write the updated content
     await fs.writeFile(filePath, updatedContent, 'utf8');
+    console.log('Question README updated successfully!')
   } catch (error) {
     throw new Error(`Failed to update problem file with solution: ${error.message}`);
   }
