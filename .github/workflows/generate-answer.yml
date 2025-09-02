@@ -33,7 +33,7 @@ jobs:
         git config --local user.name "GitHub Action"
 
     - name: Generate answers
-      run: npm start generate-solutions
+      run: npm start generate-answer
       env:
         DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         DOUBAO_API_KEY: ${{ secrets.DOUBAO_API_KEY }}
