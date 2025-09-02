@@ -14,5 +14,21 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/series/2025-09-01-problem.md",
     "titleHash": 347112011,
     "contentHash": 1193342048
+  },
+  {
+    "id": "1756777991666_meslhj3uv",
+    "title": "求解二阶常系数线性非齐次微分方程",
+    "category": "微分方程",
+    "difficulty": "中等",
+    "keywords": [
+      "微分",
+      "线性",
+      "齐次",
+      "方程"
+    ],
+    "createdAt": "2025-09-02T01:53:11.666Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential-equations/2025-09-02-problem.md",
+    "titleHash": 0,
+    "contentHash": 1446909304
   }
 ]
