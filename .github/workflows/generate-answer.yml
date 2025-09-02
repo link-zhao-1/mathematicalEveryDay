@@ -41,8 +41,8 @@ jobs:
         AI_MODEL: ${{ vars.AI_MODEL || 'deepseek' }}
 
     - name: Commit and push changes
-    run: |
-     git add .
+      run: |
+        git add .
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
