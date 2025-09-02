@@ -2,6 +2,7 @@ import fs from 'fs-extra';
 import path from 'path';
 import moment from 'moment';
 import { fileURLToPath } from 'url';
+import { processLatexInContent, createBlockLatexMarkdown } from './latexRenderer.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = path.resolve(__dirname, '../..');
@@ -57,13 +58,15 @@ function generateProblemMarkdown(problemData, date) {
   
   // Problem description
   markdown += `## 📝 题目描述\n\n`;
-  markdown += `${description}\n\n`;
+  const processedDescription = processLatexInContent(description);
+  markdown += `${processedDescription}\n\n`;
   
   // Hints section
   if (hints && hints.length > 0) {
     markdown += `## 💡 解题提示\n\n`;
     hints.forEach((hint, index) => {
-      markdown += `${index + 1}. ${hint}\n`;
+      const processedHint = processLatexInContent(hint);
+      markdown += `${index + 1}. ${processedHint}\n`;
     });
     markdown += `\n`;
   }
@@ -177,9 +180,15 @@ function generateSolutionMarkdown(solutionData) {
     markdown += `### 解题步骤\n\n`;
     solution_steps.forEach((step) => {
       markdown += `**${step.step}. ${step.title}**\n\n`;
-      markdown += `${step.content}\n\n`;
+      
+      // Process content for LaTeX formulas
+      const processedContent = processLatexInContent(step.content);
+      markdown += `${processedContent}\n\n`;
+      
+      // Add formula as rendered image if provided
       if (step.formula) {
-        markdown += `$$${step.formula}$$\n\n`;
+        const formulaMarkdown = createBlockLatexMarkdown(step.formula, `Formula for step ${step.step}`);
+        markdown += `${formulaMarkdown}\n\n`;
       }
     });
   }
@@ -187,14 +196,16 @@ function generateSolutionMarkdown(solutionData) {
   // Final answer
   if (final_answer) {
     markdown += `### 最终答案\n\n`;
-    markdown += `**答案**: ${final_answer}\n\n`;
+    const processedAnswer = processLatexInContent(final_answer);
+    markdown += `**答案**: ${processedAnswer}\n\n`;
   }
   
   // Alternative methods
   if (alternative_methods && alternative_methods.length > 0) {
     markdown += `### 其他解法\n\n`;
     alternative_methods.forEach((method, index) => {
-      markdown += `${index + 1}. ${method}\n`;
+      const processedMethod = processLatexInContent(method);
+      markdown += `${index + 1}. ${processedMethod}\n`;
     });
     markdown += `\n`;
   }

@@ -77,12 +77,13 @@ class AIService {
 3. 请提供题目的完整描述，包含所有必要的条件
 4. 题目应该有明确的解答方向
 5. 如果涉及图形，请用文字详细描述
+6. 数学公式请使用LaTeX格式，用$...$表示行内公式，$$...$$表示块级公式
 
 请严格按照以下JSON格式返回，不要添加任何其他文字：
 
 {
-  "title": "题目标题（避免使用特殊符号，用文字描述数学公式）",
-  "description": "题目详细描述（用文字而非LaTeX描述数学公式）",
+  "title": "题目标题（可包含简单的LaTeX公式）",
+  "description": "题目详细描述（可包含LaTeX公式，如：$f(x) = x^2$）",
   "category": "${category.name}",
   "difficulty": "简单",
   "tags": ["标签1", "标签2"],
@@ -95,8 +96,9 @@ ${additionalContext}
 1. 只返回JSON对象，不要包含任何markdown代码块或其他文字
 2. 所有字符串值用英文双引号包围
 3. difficulty只能是：简单、中等、困难 之一
-4. 数学公式用文字描述，如：f(x)等于x的平方加2x加1
-5. 确保JSON语法完全正确`;
+4. 可以在描述中使用LaTeX公式，如：求函数$f(x) = x^2 + 2x + 1$的导数
+5. 复杂公式用块级格式：$$\\int_0^1 x^2 dx$$
+6. 确保JSON语法完全正确，LaTeX中的反斜杠需要转义为双反斜杠`;
 
     try {
       const response = await this.makeRequest(prompt);
