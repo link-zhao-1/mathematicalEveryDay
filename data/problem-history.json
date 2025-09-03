@@ -43,5 +43,19 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multiple-integrals/2025-09-02-problem.md",
     "titleHash": 0,
     "contentHash": 489256340
+  },
+  {
+    "id": "1756891730675_a1jtifibm",
+    "title": "矩阵的幂与特征值问题",
+    "category": "线性代数",
+    "difficulty": "中等",
+    "keywords": [
+      "矩阵",
+      "特征值"
+    ],
+    "createdAt": "2025-09-03T09:28:50.675Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/linear-algebra/2025-09-03-problem.md",
+    "titleHash": 0,
+    "contentHash": 1778134137
   }
 ]
