@@ -57,5 +57,21 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/linear-algebra/2025-09-03-problem.md",
     "titleHash": 0,
     "contentHash": 1778134137
+  },
+  {
+    "id": "1756978110498_577l6wosd",
+    "title": "计算曲线积分与曲面积分的综合问题",
+    "category": "积分学",
+    "difficulty": "困难",
+    "keywords": [
+      "积分",
+      "向量",
+      "sin",
+      "cos"
+    ],
+    "createdAt": "2025-09-04T09:28:30.498Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/integral/2025-09-04-problem.md",
+    "titleHash": 0,
+    "contentHash": 584651451
   }
 ]
