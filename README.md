@@ -5,9 +5,9 @@
 ## 📅 今日题目
 
 <!-- TODAY_PROBLEM_PLACEHOLDER -->
-📅 **2025-09-04** - [计算曲线积分与曲面积分的综合问题](questions/integral/2025-09-04-problem.md)
-- **分类**: 积分学
-- **难度**: 困难
+📅 **2025-09-05** - [多元函数极值问题与拉格朗日乘数法](questions/multivariable-differential/2025-09-05-problem.md)
+- **分类**: 多元微分
+- **难度**: 中等
 <!-- END_TODAY_PROBLEM_PLACEHOLDER -->
 
 ## 📚 历史题目
@@ -15,11 +15,12 @@
 <!-- HISTORY_TABLE_PLACEHOLDER -->
 | 日期 | 题目 | 分类 | 难度  | 链接 |
 |------|------|------|------|------|
+| 2025-09-05 | 多元函数极值问题与拉格朗日乘数法 | 多元微分 | 中等 | [查看](questions/multivariable-differential/2025-09-05-problem.md) |
 | 2025-09-04 | 计算曲线积分与曲面积分的综合问题 | 积分学 | 困难 | [查看](questions/integral/2025-09-04-problem.md) |
 | 2025-09-03 | 矩阵的幂与特征值问题 | 线性代数 | 中等 | [查看](questions/linear-algebra/2025-09-03-problem.md) |
 | 2025-09-02 | 计算三重积分 | 多重积分 | 中等 | [查看](questions/multiple-integrals/2025-09-02-problem.md) |
 
-*共3道题目*
+*共4道题目*
 <!-- END_HISTORY_TABLE_PLACEHOLDER -->
 
 ## 🔗 分类浏览

@@ -73,5 +73,20 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/integral/2025-09-04-problem.md",
     "titleHash": 0,
     "contentHash": 584651451
+  },
+  {
+    "id": "1757064536866_c3p9zvsui",
+    "title": "多元函数极值问题与拉格朗日乘数法",
+    "category": "多元微分",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "方程",
+      "极值"
+    ],
+    "createdAt": "2025-09-05T09:28:56.866Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multivariable-differential/2025-09-05-problem.md",
+    "titleHash": 0,
+    "contentHash": 922028921
   }
 ]
