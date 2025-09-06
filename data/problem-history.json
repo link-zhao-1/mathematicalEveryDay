@@ -88,5 +88,21 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multivariable-differential/2025-09-05-problem.md",
     "titleHash": 0,
     "contentHash": 922028921
+  },
+  {
+    "id": "1757150680930_a6gwygx1o",
+    "title": "线性变换与特征值问题",
+    "category": "线性代数",
+    "difficulty": "中等",
+    "keywords": [
+      "矩阵",
+      "向量",
+      "特征值",
+      "线性"
+    ],
+    "createdAt": "2025-09-06T09:24:40.930Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/linear-algebra/2025-09-06-problem.md",
+    "titleHash": 0,
+    "contentHash": 459766514
   }
 ]
