@@ -104,5 +104,21 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/linear-algebra/2025-09-06-problem.md",
     "titleHash": 0,
     "contentHash": 459766514
+  },
+  {
+    "id": "1757237093860_ho6ech503",
+    "title": "联合分布与条件概率",
+    "category": "概率统计",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "概率",
+      "随机",
+      "分布"
+    ],
+    "createdAt": "2025-09-07T09:24:53.860Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/probability-statistics/2025-09-07-problem.md",
+    "titleHash": 0,
+    "contentHash": 2082893491
   }
 ]
