@@ -120,5 +120,23 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/probability-statistics/2025-09-07-problem.md",
     "titleHash": 0,
     "contentHash": 2082893491
+  },
+  {
+    "id": "1757323948614_i7laz45ft",
+    "title": "求函数 $f(x) = \\frac{\\ln(1 + x)}{x}$ 在 $x=0$ 处的极限与导数",
+    "category": "微分学",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "导数",
+      "极限",
+      "连续",
+      "泰勒",
+      "ln"
+    ],
+    "createdAt": "2025-09-08T09:32:28.614Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential/2025-09-08-problem.md",
+    "titleHash": 688983911,
+    "contentHash": 718052311
   }
 ]
