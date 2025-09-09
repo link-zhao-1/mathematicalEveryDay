@@ -138,5 +138,22 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential/2025-09-08-problem.md",
     "titleHash": 688983911,
     "contentHash": 718052311
+  },
+  {
+    "id": "1757410251456_t3lci92v4",
+    "title": "幂级数求和函数与积分应用",
+    "category": "级数",
+    "difficulty": "困难",
+    "keywords": [
+      "函数",
+      "积分",
+      "级数",
+      "幂级数",
+      "tan"
+    ],
+    "createdAt": "2025-09-09T09:30:51.456Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/series/2025-09-09-problem.md",
+    "titleHash": 0,
+    "contentHash": 301387966
   }
 ]
