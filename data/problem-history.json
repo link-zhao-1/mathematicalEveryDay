@@ -169,5 +169,21 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/series/2025-09-10-problem.md",
     "titleHash": 110830247,
     "contentHash": 1025937127
+  },
+  {
+    "id": "1757582914095_wemxaegku",
+    "title": "计算曲线积分与曲面积分的综合问题",
+    "category": "积分学",
+    "difficulty": "困难",
+    "keywords": [
+      "积分",
+      "向量",
+      "sin",
+      "tan"
+    ],
+    "createdAt": "2025-09-11T09:28:34.095Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/integral/2025-09-11-problem.md",
+    "titleHash": 0,
+    "contentHash": 175206030
   }
 ]
