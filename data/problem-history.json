@@ -185,5 +185,22 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/integral/2025-09-11-problem.md",
     "titleHash": 0,
     "contentHash": 175206030
+  },
+  {
+    "id": "1757669273298_t8enhqc4x",
+    "title": "求解二阶线性非齐次微分方程",
+    "category": "微分方程",
+    "difficulty": "中等",
+    "keywords": [
+      "微分",
+      "线性",
+      "齐次",
+      "方程",
+      "cos"
+    ],
+    "createdAt": "2025-09-12T09:27:53.298Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential-equations/2025-09-12-problem.md",
+    "titleHash": 0,
+    "contentHash": 899148199
   }
 ]
