@@ -217,5 +217,21 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multivariable-differential/2025-09-13-problem.md",
     "titleHash": 0,
     "contentHash": 1626518887
+  },
+  {
+    "id": "1757841914378_zpvw5ttyi",
+    "title": "幂级数求和与函数展开",
+    "category": "级数",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "级数",
+      "收敛",
+      "幂级数"
+    ],
+    "createdAt": "2025-09-14T09:25:14.378Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/series/2025-09-14-problem.md",
+    "titleHash": 0,
+    "contentHash": 2100575683
   }
 ]
