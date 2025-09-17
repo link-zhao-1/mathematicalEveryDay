@@ -248,5 +248,18 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multivariable-differential/2025-09-15-problem.md",
     "titleHash": 0,
     "contentHash": 1646112586
+  },
+  {
+    "id": "1758101374805_bded4kd3j",
+    "title": "计算曲线积分与曲面积分",
+    "category": "积分学",
+    "difficulty": "困难",
+    "keywords": [
+      "积分"
+    ],
+    "createdAt": "2025-09-17T09:29:34.805Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/integral/2025-09-17-problem.md",
+    "titleHash": 0,
+    "contentHash": 139832258
   }
 ]
