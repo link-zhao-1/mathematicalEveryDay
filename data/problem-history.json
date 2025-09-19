@@ -275,5 +275,19 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/integral/2025-09-18-problem.md",
     "titleHash": 0,
     "contentHash": 80577859
+  },
+  {
+    "id": "1758274161463_cpsdlf40y",
+    "title": "多元函数极值与条件极值问题",
+    "category": "多元微分",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "极值"
+    ],
+    "createdAt": "2025-09-19T09:29:21.463Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multivariable-differential/2025-09-19-problem.md",
+    "titleHash": 0,
+    "contentHash": 876739219
   }
 ]
