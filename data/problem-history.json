@@ -289,5 +289,22 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multivariable-differential/2025-09-19-problem.md",
     "titleHash": 0,
     "contentHash": 876739219
+  },
+  {
+    "id": "1758360348604_lfj6vr6ik",
+    "title": "求解二阶线性非齐次微分方程",
+    "category": "微分方程",
+    "difficulty": "中等",
+    "keywords": [
+      "微分",
+      "线性",
+      "齐次",
+      "方程",
+      "cos"
+    ],
+    "createdAt": "2025-09-20T09:25:48.604Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential-equations/2025-09-20-problem.md",
+    "titleHash": 0,
+    "contentHash": 964134909
   }
 ]
