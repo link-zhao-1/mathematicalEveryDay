@@ -306,5 +306,18 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential-equations/2025-09-20-problem.md",
     "titleHash": 0,
     "contentHash": 964134909
+  },
+  {
+    "id": "1758446684665_tlqjtu9o5",
+    "title": "计算曲线积分与曲面积分",
+    "category": "积分学",
+    "difficulty": "中等",
+    "keywords": [
+      "积分"
+    ],
+    "createdAt": "2025-09-21T09:24:44.665Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/integral/2025-09-21-problem.md",
+    "titleHash": 0,
+    "contentHash": 600999364
   }
 ]
