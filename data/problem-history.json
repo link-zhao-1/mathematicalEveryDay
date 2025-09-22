@@ -319,5 +319,21 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/integral/2025-09-21-problem.md",
     "titleHash": 0,
     "contentHash": 600999364
+  },
+  {
+    "id": "1758533581890_tec5hq80s",
+    "title": "级数求和与函数展开",
+    "category": "级数",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "级数",
+      "收敛",
+      "幂级数"
+    ],
+    "createdAt": "2025-09-22T09:33:01.890Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/series/2025-09-22-problem.md",
+    "titleHash": 0,
+    "contentHash": 1384066563
   }
 ]
