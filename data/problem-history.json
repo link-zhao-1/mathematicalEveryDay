@@ -335,5 +335,18 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/series/2025-09-22-problem.md",
     "titleHash": 0,
     "contentHash": 1384066563
+  },
+  {
+    "id": "1758619821341_kwtunzgv1",
+    "title": "计算曲线 $y = \\ln x$ 与直线 $y = 0$, $x = e$ 所围成区域绕 $y$ 轴旋转一周所得旋转体的体积",
+    "category": "积分学",
+    "difficulty": "中等",
+    "keywords": [
+      "ln"
+    ],
+    "createdAt": "2025-09-23T09:30:21.341Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/integral/2025-09-23-problem.md",
+    "titleHash": 1976247032,
+    "contentHash": 106094434
   }
 ]
