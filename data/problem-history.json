@@ -382,5 +382,18 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/probability-statistics/2025-09-25-problem.md",
     "titleHash": 0,
     "contentHash": 2032618014
+  },
+  {
+    "id": "1758878993776_q4b4j7zsw",
+    "title": "计算旋转体体积与表面积",
+    "category": "积分学",
+    "difficulty": "中等",
+    "keywords": [
+      "ln"
+    ],
+    "createdAt": "2025-09-26T09:29:53.776Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/integral/2025-09-26-problem.md",
+    "titleHash": 0,
+    "contentHash": 2084107135
   }
 ]
