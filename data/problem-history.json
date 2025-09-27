@@ -395,5 +395,23 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/integral/2025-09-26-problem.md",
     "titleHash": 0,
     "contentHash": 2084107135
+  },
+  {
+    "id": "1758965090708_c879vdce4",
+    "title": "利用微分方程研究函数性质与渐近线",
+    "category": "微分学",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "微分",
+      "方程",
+      "凹凸",
+      "拐点",
+      "渐近"
+    ],
+    "createdAt": "2025-09-27T09:24:50.708Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential/2025-09-27-problem.md",
+    "titleHash": 0,
+    "contentHash": 453072515
   }
 ]
