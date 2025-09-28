@@ -413,5 +413,18 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential/2025-09-27-problem.md",
     "titleHash": 0,
     "contentHash": 453072515
+  },
+  {
+    "id": "1759051503235_3i6neguej",
+    "title": "三重积分计算:球坐标变换",
+    "category": "多重积分",
+    "difficulty": "中等",
+    "keywords": [
+      "积分"
+    ],
+    "createdAt": "2025-09-28T09:25:03.235Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multiple-integrals/2025-09-28-problem.md",
+    "titleHash": 0,
+    "contentHash": 19388908
   }
 ]
