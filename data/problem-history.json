@@ -426,5 +426,20 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multiple-integrals/2025-09-28-problem.md",
     "titleHash": 0,
     "contentHash": 19388908
+  },
+  {
+    "id": "1759138360780_0h3b39tbc",
+    "title": "多元函数极值与条件极值问题",
+    "category": "多元微分",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "方程",
+      "极值"
+    ],
+    "createdAt": "2025-09-29T09:32:40.780Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multivariable-differential/2025-09-29-problem.md",
+    "titleHash": 0,
+    "contentHash": 1036509475
   }
 ]
