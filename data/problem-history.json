@@ -458,5 +458,21 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential/2025-09-30-problem.md",
     "titleHash": 0,
     "contentHash": 1386390900
+  },
+  {
+    "id": "1759311026765_b6nvu9h6c",
+    "title": "求解二阶线性非齐次微分方程",
+    "category": "微分方程",
+    "difficulty": "中等",
+    "keywords": [
+      "微分",
+      "线性",
+      "齐次",
+      "方程"
+    ],
+    "createdAt": "2025-10-01T09:30:26.765Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential-equations/2025-10-01-problem.md",
+    "titleHash": 0,
+    "contentHash": 264847964
   }
 ]
