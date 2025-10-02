@@ -474,5 +474,19 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential-equations/2025-10-01-problem.md",
     "titleHash": 0,
     "contentHash": 264847964
+  },
+  {
+    "id": "1759397335650_s7urofq2o",
+    "title": "多元函数极值与条件极值问题",
+    "category": "多元微分",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "极值"
+    ],
+    "createdAt": "2025-10-02T09:28:55.650Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multivariable-differential/2025-10-02-problem.md",
+    "titleHash": 0,
+    "contentHash": 123599569
   }
 ]
