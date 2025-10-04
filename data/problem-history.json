@@ -504,5 +504,20 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/series/2025-10-03-problem.md",
     "titleHash": 0,
     "contentHash": 1876167548
+  },
+  {
+    "id": "1759569895949_u59s8kugh",
+    "title": "矩阵特征值与特征向量的综合应用",
+    "category": "线性代数",
+    "difficulty": "中等",
+    "keywords": [
+      "矩阵",
+      "向量",
+      "特征值"
+    ],
+    "createdAt": "2025-10-04T09:24:55.949Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/linear-algebra/2025-10-04-problem.md",
+    "titleHash": 0,
+    "contentHash": 1829428520
   }
 ]
