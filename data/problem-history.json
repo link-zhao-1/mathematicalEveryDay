@@ -564,5 +564,22 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/integral/2025-10-07-problem.md",
     "titleHash": 0,
     "contentHash": 555650201
+  },
+  {
+    "id": "1759915836851_296xozhw0",
+    "title": "求解二阶常系数线性微分方程",
+    "category": "微分方程",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "微分",
+      "线性",
+      "方程",
+      "cos"
+    ],
+    "createdAt": "2025-10-08T09:30:36.851Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential-equations/2025-10-08-problem.md",
+    "titleHash": 0,
+    "contentHash": 845757616
   }
 ]
