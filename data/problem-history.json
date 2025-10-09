@@ -581,5 +581,21 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential-equations/2025-10-08-problem.md",
     "titleHash": 0,
     "contentHash": 845757616
+  },
+  {
+    "id": "1760002189022_m4cmzbmtz",
+    "title": "隐函数微分与极值问题",
+    "category": "微分学",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "微分",
+      "方程",
+      "极值"
+    ],
+    "createdAt": "2025-10-09T09:29:49.022Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential/2025-10-09-problem.md",
+    "titleHash": 0,
+    "contentHash": 953934608
   }
 ]
