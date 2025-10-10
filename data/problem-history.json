@@ -597,5 +597,23 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential/2025-10-09-problem.md",
     "titleHash": 0,
     "contentHash": 953934608
+  },
+  {
+    "id": "1760088588659_c6drc4okp",
+    "title": "求解二阶线性微分方程 $y'' + 4y' + 4y = e^{-2x} \\cos x$",
+    "category": "微分方程",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "微分",
+      "线性",
+      "齐次",
+      "方程",
+      "cos"
+    ],
+    "createdAt": "2025-10-10T09:29:48.660Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential-equations/2025-10-10-problem.md",
+    "titleHash": 899148199,
+    "contentHash": 1569552849
   }
 ]
