@@ -615,5 +615,19 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential-equations/2025-10-10-problem.md",
     "titleHash": 899148199,
     "contentHash": 1569552849
+  },
+  {
+    "id": "1760174727402_mxf76yaze",
+    "title": "多元函数极值与条件极值的综合应用",
+    "category": "多元微分",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "极值"
+    ],
+    "createdAt": "2025-10-11T09:25:27.402Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multivariable-differential/2025-10-11-problem.md",
+    "titleHash": 0,
+    "contentHash": 1647714006
   }
 ]
