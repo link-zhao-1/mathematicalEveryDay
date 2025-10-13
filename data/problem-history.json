@@ -643,5 +643,22 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/integral/2025-10-12-problem.md",
     "titleHash": 0,
     "contentHash": 598939672
+  },
+  {
+    "id": "1760348033789_6rjalcl5n",
+    "title": "多维随机变量的联合分布与条件概率",
+    "category": "概率统计",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "连续",
+      "概率",
+      "随机",
+      "分布"
+    ],
+    "createdAt": "2025-10-13T09:33:53.789Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/probability-statistics/2025-10-13-problem.md",
+    "titleHash": 0,
+    "contentHash": 1551159172
   }
 ]
