@@ -660,5 +660,19 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/probability-statistics/2025-10-13-problem.md",
     "titleHash": 0,
     "contentHash": 1551159172
+  },
+  {
+    "id": "1760434239726_3a88iner1",
+    "title": "矩阵的幂与特征值问题",
+    "category": "线性代数",
+    "difficulty": "中等",
+    "keywords": [
+      "矩阵",
+      "特征值"
+    ],
+    "createdAt": "2025-10-14T09:30:39.726Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/linear-algebra/2025-10-14-problem.md",
+    "titleHash": 0,
+    "contentHash": 1266503804
   }
 ]
