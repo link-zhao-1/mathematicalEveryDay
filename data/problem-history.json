@@ -674,5 +674,21 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/linear-algebra/2025-10-14-problem.md",
     "titleHash": 0,
     "contentHash": 1266503804
+  },
+  {
+    "id": "1760520666025_ghtt5507k",
+    "title": "求解二阶变系数线性微分方程",
+    "category": "微分方程",
+    "difficulty": "中等",
+    "keywords": [
+      "微分",
+      "线性",
+      "方程",
+      "ln"
+    ],
+    "createdAt": "2025-10-15T09:31:06.025Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential-equations/2025-10-15-problem.md",
+    "titleHash": 0,
+    "contentHash": 224764072
   }
 ]
