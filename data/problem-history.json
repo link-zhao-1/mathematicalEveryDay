@@ -717,5 +717,19 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/integral/2025-10-17-problem.md",
     "titleHash": 0,
     "contentHash": 363329669
+  },
+  {
+    "id": "1760865945969_rdaseweob",
+    "title": "矩阵的幂与特征值问题",
+    "category": "线性代数",
+    "difficulty": "中等",
+    "keywords": [
+      "矩阵",
+      "特征值"
+    ],
+    "createdAt": "2025-10-19T09:25:45.969Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/linear-algebra/2025-10-19-problem.md",
+    "titleHash": 0,
+    "contentHash": 265088861
   }
 ]
