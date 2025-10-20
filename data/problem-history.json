@@ -731,5 +731,20 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/linear-algebra/2025-10-19-problem.md",
     "titleHash": 0,
     "contentHash": 265088861
+  },
+  {
+    "id": "1760953161993_4ko1x8237",
+    "title": "幂级数求和与函数展开",
+    "category": "级数",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "级数",
+      "幂级数"
+    ],
+    "createdAt": "2025-10-20T09:39:21.993Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/series/2025-10-20-problem.md",
+    "titleHash": 0,
+    "contentHash": 1618159666
   }
 ]
