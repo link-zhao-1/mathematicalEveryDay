@@ -761,5 +761,24 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multivariable-differential/2025-10-21-problem.md",
     "titleHash": 0,
     "contentHash": 1211179093
+  },
+  {
+    "id": "1761125628355_jp90hqirl",
+    "title": "多维随机变量的函数分布与期望计算",
+    "category": "概率统计",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "概率",
+      "随机",
+      "分布",
+      "期望",
+      "方差",
+      "均匀"
+    ],
+    "createdAt": "2025-10-22T09:33:48.355Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/probability-statistics/2025-10-22-problem.md",
+    "titleHash": 0,
+    "contentHash": 478029402
   }
 ]
