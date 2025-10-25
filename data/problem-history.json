@@ -811,5 +811,22 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential-equations/2025-10-24-problem.md",
     "titleHash": 0,
     "contentHash": 757530116
+  },
+  {
+    "id": "1761384364410_jh6tsdxfr",
+    "title": "多维随机变量的概率密度函数与协方差矩阵",
+    "category": "概率统计",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "矩阵",
+      "概率",
+      "随机",
+      "方差"
+    ],
+    "createdAt": "2025-10-25T09:26:04.410Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/probability-statistics/2025-10-25-problem.md",
+    "titleHash": 0,
+    "contentHash": 1770614934
   }
 ]
