@@ -842,5 +842,18 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/linear-algebra/2025-10-26-problem.md",
     "titleHash": 0,
     "contentHash": 649489860
+  },
+  {
+    "id": "1761557688919_6d1u2v8ly",
+    "title": "三重积分计算:球坐标变换",
+    "category": "多重积分",
+    "difficulty": "中等",
+    "keywords": [
+      "积分"
+    ],
+    "createdAt": "2025-10-27T09:34:48.919Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multiple-integrals/2025-10-27-problem.md",
+    "titleHash": 0,
+    "contentHash": 640359008
   }
 ]
