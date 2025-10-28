@@ -855,5 +855,20 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multiple-integrals/2025-10-27-problem.md",
     "titleHash": 0,
     "contentHash": 640359008
+  },
+  {
+    "id": "1761643895682_evcur33vu",
+    "title": "隐函数微分与曲率半径问题",
+    "category": "微分学",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "微分",
+      "方程"
+    ],
+    "createdAt": "2025-10-28T09:31:35.682Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential/2025-10-28-problem.md",
+    "titleHash": 0,
+    "contentHash": 895207925
   }
 ]
