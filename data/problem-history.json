@@ -870,5 +870,20 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential/2025-10-28-problem.md",
     "titleHash": 0,
     "contentHash": 895207925
+  },
+  {
+    "id": "1761730256362_vpnntqxj7",
+    "title": "矩阵特征值与特征向量的综合应用",
+    "category": "线性代数",
+    "difficulty": "中等",
+    "keywords": [
+      "矩阵",
+      "向量",
+      "特征值"
+    ],
+    "createdAt": "2025-10-29T09:30:56.362Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/linear-algebra/2025-10-29-problem.md",
+    "titleHash": 0,
+    "contentHash": 292058262
   }
 ]
