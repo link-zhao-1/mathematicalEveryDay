@@ -885,5 +885,19 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/linear-algebra/2025-10-29-problem.md",
     "titleHash": 0,
     "contentHash": 292058262
+  },
+  {
+    "id": "1761816669915_564n4aw9f",
+    "title": "多元函数极值与条件极值问题",
+    "category": "多元微分",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "极值"
+    ],
+    "createdAt": "2025-10-30T09:31:09.915Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multivariable-differential/2025-10-30-problem.md",
+    "titleHash": 0,
+    "contentHash": 374086331
   }
 ]
