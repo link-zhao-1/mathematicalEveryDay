@@ -899,5 +899,21 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multivariable-differential/2025-10-30-problem.md",
     "titleHash": 0,
     "contentHash": 374086331
+  },
+  {
+    "id": "1761989217949_bbs6w5pkj",
+    "title": "幂级数求和与函数展开",
+    "category": "级数",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "级数",
+      "收敛",
+      "幂级数"
+    ],
+    "createdAt": "2025-11-01T09:26:57.949Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/series/2025-11-01-problem.md",
+    "titleHash": 0,
+    "contentHash": 991766312
   }
 ]
