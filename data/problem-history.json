@@ -941,5 +941,20 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multiple-integrals/2025-11-03-problem.md",
     "titleHash": 0,
     "contentHash": 994190070
+  },
+  {
+    "id": "1762248828454_bgzo7y3g0",
+    "title": "矩阵特征值与特征向量的综合应用",
+    "category": "线性代数",
+    "difficulty": "中等",
+    "keywords": [
+      "矩阵",
+      "向量",
+      "特征值"
+    ],
+    "createdAt": "2025-11-04T09:33:48.454Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/linear-algebra/2025-11-04-problem.md",
+    "titleHash": 0,
+    "contentHash": 49844941
   }
 ]
