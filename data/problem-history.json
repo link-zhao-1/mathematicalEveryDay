@@ -970,5 +970,18 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multivariable-differential/2025-11-05-problem.md",
     "titleHash": 0,
     "contentHash": 1031339904
+  },
+  {
+    "id": "1762421560525_q24q63mmh",
+    "title": "三重积分计算:球坐标变换",
+    "category": "多重积分",
+    "difficulty": "中等",
+    "keywords": [
+      "积分"
+    ],
+    "createdAt": "2025-11-06T09:32:40.526Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multiple-integrals/2025-11-06-problem.md",
+    "titleHash": 0,
+    "contentHash": 755121149
   }
 ]
