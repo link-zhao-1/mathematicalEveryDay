@@ -983,5 +983,21 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multiple-integrals/2025-11-06-problem.md",
     "titleHash": 0,
     "contentHash": 755121149
+  },
+  {
+    "id": "1762594028918_3kltzs9oy",
+    "title": "求解二阶变系数线性微分方程",
+    "category": "微分方程",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "微分",
+      "线性",
+      "方程"
+    ],
+    "createdAt": "2025-11-08T09:27:08.918Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential-equations/2025-11-08-problem.md",
+    "titleHash": 0,
+    "contentHash": 1650945483
   }
 ]
