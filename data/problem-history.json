@@ -999,5 +999,18 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential-equations/2025-11-08-problem.md",
     "titleHash": 0,
     "contentHash": 1650945483
+  },
+  {
+    "id": "1762680421326_d1xh5ezx4",
+    "title": "三重积分在柱坐标系下的计算",
+    "category": "多重积分",
+    "difficulty": "中等",
+    "keywords": [
+      "积分"
+    ],
+    "createdAt": "2025-11-09T09:27:01.326Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multiple-integrals/2025-11-09-problem.md",
+    "titleHash": 0,
+    "contentHash": 181694929
   }
 ]
