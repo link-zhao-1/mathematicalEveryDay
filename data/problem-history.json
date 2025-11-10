@@ -1012,5 +1012,21 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multiple-integrals/2025-11-09-problem.md",
     "titleHash": 0,
     "contentHash": 181694929
+  },
+  {
+    "id": "1762767275482_j47uspn1u",
+    "title": "求解二阶线性微分方程",
+    "category": "微分方程",
+    "difficulty": "中等",
+    "keywords": [
+      "微分",
+      "线性",
+      "齐次",
+      "方程"
+    ],
+    "createdAt": "2025-11-10T09:34:35.483Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential-equations/2025-11-10-problem.md",
+    "titleHash": 0,
+    "contentHash": 585981533
   }
 ]
