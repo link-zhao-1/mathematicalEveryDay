@@ -1028,5 +1028,18 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential-equations/2025-11-10-problem.md",
     "titleHash": 0,
     "contentHash": 585981533
+  },
+  {
+    "id": "1762853525164_nyh0e496o",
+    "title": "计算旋转体体积与表面积",
+    "category": "积分学",
+    "difficulty": "中等",
+    "keywords": [
+      "ln"
+    ],
+    "createdAt": "2025-11-11T09:32:05.164Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/integral/2025-11-11-problem.md",
+    "titleHash": 0,
+    "contentHash": 1219006440
   }
 ]
