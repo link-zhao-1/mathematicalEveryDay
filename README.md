@@ -5,8 +5,8 @@
 ## 📅 今日题目
 
 <!-- TODAY_PROBLEM_PLACEHOLDER -->
-📅 **2025-11-13** - [幂级数求和与函数展开](questions/series/2025-11-13-problem.md)
-- **分类**: 级数
+📅 **2025-11-14** - [三重积分在球坐标系下的计算](questions/multiple-integrals/2025-11-14-problem.md)
+- **分类**: 多重积分
 - **难度**: 中等
 <!-- END_TODAY_PROBLEM_PLACEHOLDER -->
 
@@ -15,6 +15,7 @@
 <!-- HISTORY_TABLE_PLACEHOLDER -->
 | 日期 | 题目 | 分类 | 难度  | 链接 |
 |------|------|------|------|------|
+| 2025-11-14 | 三重积分在球坐标系下的计算 | 多重积分 | 中等 | [查看](questions/multiple-integrals/2025-11-14-problem.md) |
 | 2025-11-13 | 幂级数求和与函数展开 | 级数 | 中等 | [查看](questions/series/2025-11-13-problem.md) |
 | 2025-11-11 | 计算旋转体体积与表面积 | 积分学 | 中等 | [查看](questions/integral/2025-11-11-problem.md) |
 | 2025-11-10 | 求解二阶线性微分方程 | 微分方程 | 中等 | [查看](questions/differential-equations/2025-11-10-problem.md) |
@@ -64,9 +65,8 @@
 | 2025-09-24 | 求解二阶常系数线性微分方程 | 微分方程 | 中等 | [查看](questions/differential-equations/2025-09-24-problem.md) |
 | 2025-09-23 | 计算曲线 $y = \ln x$ 与直线 $y = 0$, $x = e$ 所围成区域绕 $y$ 轴旋转一周所得旋转体的体积 | 积分学 | 中等 | [查看](questions/integral/2025-09-23-problem.md) |
 | 2025-09-22 | 级数求和与函数展开 | 级数 | 中等 | [查看](questions/series/2025-09-22-problem.md) |
-| 2025-09-21 | 计算曲线积分与曲面积分 | 积分学 | 中等 | [查看](questions/integral/2025-09-21-problem.md) |
 
-*显示最近50道题目，共68道题目*
+*显示最近50道题目，共69道题目*
 <!-- END_HISTORY_TABLE_PLACEHOLDER -->
 
 ## 🔗 分类浏览

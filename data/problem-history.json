@@ -1056,5 +1056,18 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/series/2025-11-13-problem.md",
     "titleHash": 0,
     "contentHash": 139141424
+  },
+  {
+    "id": "1763112727520_jvxwm2ay0",
+    "title": "三重积分在球坐标系下的计算",
+    "category": "多重积分",
+    "difficulty": "中等",
+    "keywords": [
+      "积分"
+    ],
+    "createdAt": "2025-11-14T09:32:07.520Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multiple-integrals/2025-11-14-problem.md",
+    "titleHash": 0,
+    "contentHash": 2082554123
   }
 ]
