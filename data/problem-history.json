@@ -1083,5 +1083,21 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multivariable-differential/2025-11-15-problem.md",
     "titleHash": 0,
     "contentHash": 18085727
+  },
+  {
+    "id": "1763285272072_yc5rzktuv",
+    "title": "矩阵特征值与特征向量的综合应用",
+    "category": "线性代数",
+    "difficulty": "中等",
+    "keywords": [
+      "矩阵",
+      "向量",
+      "特征值",
+      "线性"
+    ],
+    "createdAt": "2025-11-16T09:27:52.072Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/linear-algebra/2025-11-16-problem.md",
+    "titleHash": 0,
+    "contentHash": 1546366014
   }
 ]
