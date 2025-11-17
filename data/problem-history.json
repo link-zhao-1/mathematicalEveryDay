@@ -1099,5 +1099,19 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/linear-algebra/2025-11-16-problem.md",
     "titleHash": 0,
     "contentHash": 1546366014
+  },
+  {
+    "id": "1763372164705_znherzolq",
+    "title": "计算曲线积分与曲面积分",
+    "category": "积分学",
+    "difficulty": "中等",
+    "keywords": [
+      "积分",
+      "向量"
+    ],
+    "createdAt": "2025-11-17T09:36:04.705Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/integral/2025-11-17-problem.md",
+    "titleHash": 0,
+    "contentHash": 1144789227
   }
 ]
