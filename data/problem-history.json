@@ -1113,5 +1113,21 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/integral/2025-11-17-problem.md",
     "titleHash": 0,
     "contentHash": 1144789227
+  },
+  {
+    "id": "1763458388939_u9jel23xy",
+    "title": "幂级数求和与函数展开",
+    "category": "级数",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "级数",
+      "收敛",
+      "幂级数"
+    ],
+    "createdAt": "2025-11-18T09:33:08.939Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/series/2025-11-18-problem.md",
+    "titleHash": 0,
+    "contentHash": 263791403
   }
 ]
