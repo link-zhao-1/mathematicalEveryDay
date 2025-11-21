@@ -1145,5 +1145,21 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential-equations/2025-11-19-problem.md",
     "titleHash": 0,
     "contentHash": 1628538874
+  },
+  {
+    "id": "1763717486258_7stty1itl",
+    "title": "幂级数求和与函数展开",
+    "category": "级数",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "级数",
+      "收敛",
+      "幂级数"
+    ],
+    "createdAt": "2025-11-21T09:31:26.258Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/series/2025-11-21-problem.md",
+    "titleHash": 0,
+    "contentHash": 757545424
   }
 ]

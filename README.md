@@ -5,8 +5,8 @@
 ## 📅 今日题目
 
 <!-- TODAY_PROBLEM_PLACEHOLDER -->
-📅 **2025-11-19** - [求解二阶线性非齐次微分方程](questions/differential-equations/2025-11-19-problem.md)
-- **分类**: 微分方程
+📅 **2025-11-21** - [幂级数求和与函数展开](questions/series/2025-11-21-problem.md)
+- **分类**: 级数
 - **难度**: 中等
 <!-- END_TODAY_PROBLEM_PLACEHOLDER -->
 
@@ -15,6 +15,7 @@
 <!-- HISTORY_TABLE_PLACEHOLDER -->
 | 日期 | 题目 | 分类 | 难度  | 链接 |
 |------|------|------|------|------|
+| 2025-11-21 | 幂级数求和与函数展开 | 级数 | 中等 | [查看](questions/series/2025-11-21-problem.md) |
 | 2025-11-19 | 求解二阶线性非齐次微分方程 | 微分方程 | 中等 | [查看](questions/differential-equations/2025-11-19-problem.md) |
 | 2025-11-18 | 幂级数求和与函数展开 | 级数 | 中等 | [查看](questions/series/2025-11-18-problem.md) |
 | 2025-11-17 | 计算曲线积分与曲面积分 | 积分学 | 中等 | [查看](questions/integral/2025-11-17-problem.md) |
@@ -64,9 +65,8 @@
 | 2025-09-30 | 隐函数微分与参数方程求导综合题 | 微分学 | 中等 | [查看](questions/differential/2025-09-30-problem.md) |
 | 2025-09-29 | 多元函数极值与条件极值问题 | 多元微分 | 中等 | [查看](questions/multivariable-differential/2025-09-29-problem.md) |
 | 2025-09-28 | 三重积分计算:球坐标变换 | 多重积分 | 中等 | [查看](questions/multiple-integrals/2025-09-28-problem.md) |
-| 2025-09-27 | 利用微分方程研究函数性质与渐近线 | 微分学 | 中等 | [查看](questions/differential/2025-09-27-problem.md) |
 
-*显示最近50道题目，共74道题目*
+*显示最近50道题目，共75道题目*
 <!-- END_HISTORY_TABLE_PLACEHOLDER -->
 
 ## 🔗 分类浏览
