@@ -1174,5 +1174,20 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/integral/2025-11-22-problem.md",
     "titleHash": 1472171630,
     "contentHash": 862839488
+  },
+  {
+    "id": "1763890082413_5llcxw1p7",
+    "title": "隐函数微分与曲率半径",
+    "category": "微分学",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "微分",
+      "方程"
+    ],
+    "createdAt": "2025-11-23T09:28:02.413Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential/2025-11-23-problem.md",
+    "titleHash": 0,
+    "contentHash": 1097092648
   }
 ]
