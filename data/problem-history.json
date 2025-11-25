@@ -1205,5 +1205,20 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/series/2025-11-24-problem.md",
     "titleHash": 0,
     "contentHash": 1353744945
+  },
+  {
+    "id": "1764063278136_dwg2ag9yx",
+    "title": "隐函数微分与曲率计算",
+    "category": "微分学",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "微分",
+      "方程"
+    ],
+    "createdAt": "2025-11-25T09:34:38.136Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential/2025-11-25-problem.md",
+    "titleHash": 0,
+    "contentHash": 398160974
   }
 ]
