@@ -1220,5 +1220,19 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential/2025-11-25-problem.md",
     "titleHash": 0,
     "contentHash": 398160974
+  },
+  {
+    "id": "1764149656942_ue67yxknu",
+    "title": "隐函数求导与曲率半径",
+    "category": "微分学",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "方程"
+    ],
+    "createdAt": "2025-11-26T09:34:16.942Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential/2025-11-26-problem.md",
+    "titleHash": 0,
+    "contentHash": 980363871
   }
 ]
