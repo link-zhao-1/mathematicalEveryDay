@@ -1234,5 +1234,22 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential/2025-11-26-problem.md",
     "titleHash": 0,
     "contentHash": 980363871
+  },
+  {
+    "id": "1764236014714_7p3ghr8g0",
+    "title": "幂级数收敛性与和函数",
+    "category": "级数",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "级数",
+      "收敛",
+      "幂级数",
+      "ln"
+    ],
+    "createdAt": "2025-11-27T09:33:34.714Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/series/2025-11-27-problem.md",
+    "titleHash": 0,
+    "contentHash": 611951390
   }
 ]

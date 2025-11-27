@@ -5,8 +5,8 @@
 ## 📅 今日题目
 
 <!-- TODAY_PROBLEM_PLACEHOLDER -->
-📅 **2025-11-26** - [隐函数求导与曲率半径](questions/differential/2025-11-26-problem.md)
-- **分类**: 微分学
+📅 **2025-11-27** - [幂级数收敛性与和函数](questions/series/2025-11-27-problem.md)
+- **分类**: 级数
 - **难度**: 中等
 <!-- END_TODAY_PROBLEM_PLACEHOLDER -->
 
@@ -15,6 +15,7 @@
 <!-- HISTORY_TABLE_PLACEHOLDER -->
 | 日期 | 题目 | 分类 | 难度  | 链接 |
 |------|------|------|------|------|
+| 2025-11-27 | 幂级数收敛性与和函数 | 级数 | 中等 | [查看](questions/series/2025-11-27-problem.md) |
 | 2025-11-26 | 隐函数求导与曲率半径 | 微分学 | 中等 | [查看](questions/differential/2025-11-26-problem.md) |
 | 2025-11-25 | 隐函数微分与曲率计算 | 微分学 | 中等 | [查看](questions/differential/2025-11-25-problem.md) |
 | 2025-11-24 | 幂级数求和与函数展开 | 级数 | 中等 | [查看](questions/series/2025-11-24-problem.md) |
@@ -64,9 +65,8 @@
 | 2025-10-06 | 多元函数极值与条件极值问题 | 多元微分 | 中等 | [查看](questions/multivariable-differential/2025-10-06-problem.md) |
 | 2025-10-05 | 隐函数微分与参数方程求导综合题 | 微分学 | 中等 | [查看](questions/differential/2025-10-05-problem.md) |
 | 2025-10-04 | 矩阵特征值与特征向量的综合应用 | 线性代数 | 中等 | [查看](questions/linear-algebra/2025-10-04-problem.md) |
-| 2025-10-03 | 幂级数求和与函数展开 | 级数 | 中等 | [查看](questions/series/2025-10-03-problem.md) |
 
-*显示最近50道题目，共80道题目*
+*显示最近50道题目，共81道题目*
 <!-- END_HISTORY_TABLE_PLACEHOLDER -->
 
 ## 🔗 分类浏览
