@@ -1251,5 +1251,22 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/series/2025-11-27-problem.md",
     "titleHash": 0,
     "contentHash": 611951390
+  },
+  {
+    "id": "1764322312543_ys1d3kjat",
+    "title": "多维随机变量的联合分布与协方差计算",
+    "category": "概率统计",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "概率",
+      "随机",
+      "分布",
+      "方差"
+    ],
+    "createdAt": "2025-11-28T09:31:52.543Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/probability-statistics/2025-11-28-problem.md",
+    "titleHash": 0,
+    "contentHash": 1257088854
   }
 ]
