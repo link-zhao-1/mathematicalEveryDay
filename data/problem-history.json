@@ -1268,5 +1268,22 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/probability-statistics/2025-11-28-problem.md",
     "titleHash": 0,
     "contentHash": 1257088854
+  },
+  {
+    "id": "1764494879945_ad1c328s3",
+    "title": "求解二阶常系数线性微分方程",
+    "category": "微分方程",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "微分",
+      "线性",
+      "方程",
+      "cos"
+    ],
+    "createdAt": "2025-11-30T09:27:59.945Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential-equations/2025-11-30-problem.md",
+    "titleHash": 0,
+    "contentHash": 1951521108
   }
 ]
