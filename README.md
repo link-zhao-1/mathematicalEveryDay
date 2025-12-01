@@ -5,8 +5,8 @@
 ## 📅 今日题目
 
 <!-- TODAY_PROBLEM_PLACEHOLDER -->
-📅 **2025-11-30** - [求解二阶常系数线性微分方程](questions/differential-equations/2025-11-30-problem.md)
-- **分类**: 微分方程
+📅 **2025-12-01** - [隐函数求导与微分方程的综合应用](questions/differential/2025-12-01-problem.md)
+- **分类**: 微分学
 - **难度**: 中等
 <!-- END_TODAY_PROBLEM_PLACEHOLDER -->
 
@@ -15,6 +15,7 @@
 <!-- HISTORY_TABLE_PLACEHOLDER -->
 | 日期 | 题目 | 分类 | 难度  | 链接 |
 |------|------|------|------|------|
+| 2025-12-01 | 隐函数求导与微分方程的综合应用 | 微分学 | 中等 | [查看](questions/differential/2025-12-01-problem.md) |
 | 2025-11-30 | 求解二阶常系数线性微分方程 | 微分方程 | 中等 | [查看](questions/differential-equations/2025-11-30-problem.md) |
 | 2025-11-28 | 多维随机变量的联合分布与协方差计算 | 概率统计 | 中等 | [查看](questions/probability-statistics/2025-11-28-problem.md) |
 | 2025-11-27 | 幂级数收敛性与和函数 | 级数 | 中等 | [查看](questions/series/2025-11-27-problem.md) |
@@ -64,9 +65,8 @@
 | 2025-10-09 | 隐函数微分与极值问题 | 微分学 | 中等 | [查看](questions/differential/2025-10-09-problem.md) |
 | 2025-10-08 | 求解二阶常系数线性微分方程 | 微分方程 | 中等 | [查看](questions/differential-equations/2025-10-08-problem.md) |
 | 2025-10-07 | 计算曲线积分与曲面积分 | 积分学 | 困难 | [查看](questions/integral/2025-10-07-problem.md) |
-| 2025-10-06 | 多元函数极值与条件极值问题 | 多元微分 | 中等 | [查看](questions/multivariable-differential/2025-10-06-problem.md) |
 
-*显示最近50道题目，共83道题目*
+*显示最近50道题目，共84道题目*
 <!-- END_HISTORY_TABLE_PLACEHOLDER -->
 
 ## 🔗 分类浏览

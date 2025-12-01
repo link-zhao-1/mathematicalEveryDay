@@ -1285,5 +1285,22 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential-equations/2025-11-30-problem.md",
     "titleHash": 0,
     "contentHash": 1951521108
+  },
+  {
+    "id": "1764582045770_gdu0iup9o",
+    "title": "隐函数求导与微分方程的综合应用",
+    "category": "微分学",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "微分",
+      "方程",
+      "tan",
+      "ln"
+    ],
+    "createdAt": "2025-12-01T09:40:45.770Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential/2025-12-01-problem.md",
+    "titleHash": 0,
+    "contentHash": 2128978934
   }
 ]
