@@ -5,8 +5,8 @@
 ## 📅 今日题目
 
 <!-- TODAY_PROBLEM_PLACEHOLDER -->
-📅 **2025-12-02** - [求解二阶常系数非齐次线性微分方程](questions/differential-equations/2025-12-02-problem.md)
-- **分类**: 微分方程
+📅 **2025-12-03** - [计算曲线积分与曲面积分](questions/integral/2025-12-03-problem.md)
+- **分类**: 积分学
 - **难度**: 中等
 <!-- END_TODAY_PROBLEM_PLACEHOLDER -->
 
@@ -15,6 +15,7 @@
 <!-- HISTORY_TABLE_PLACEHOLDER -->
 | 日期 | 题目 | 分类 | 难度  | 链接 |
 |------|------|------|------|------|
+| 2025-12-03 | 计算曲线积分与曲面积分 | 积分学 | 中等 | [查看](questions/integral/2025-12-03-problem.md) |
 | 2025-12-02 | 求解二阶常系数非齐次线性微分方程 | 微分方程 | 中等 | [查看](questions/differential-equations/2025-12-02-problem.md) |
 | 2025-12-01 | 隐函数求导与微分方程的综合应用 | 微分学 | 中等 | [查看](questions/differential/2025-12-01-problem.md) |
 | 2025-11-30 | 求解二阶常系数线性微分方程 | 微分方程 | 中等 | [查看](questions/differential-equations/2025-11-30-problem.md) |
@@ -64,9 +65,8 @@
 | 2025-10-11 | 多元函数极值与条件极值的综合应用 | 多元微分 | 中等 | [查看](questions/multivariable-differential/2025-10-11-problem.md) |
 | 2025-10-10 | 求解二阶线性微分方程 $y'' + 4y' + 4y = e^{-2x} \cos x$ | 微分方程 | 中等 | [查看](questions/differential-equations/2025-10-10-problem.md) |
 | 2025-10-09 | 隐函数微分与极值问题 | 微分学 | 中等 | [查看](questions/differential/2025-10-09-problem.md) |
-| 2025-10-08 | 求解二阶常系数线性微分方程 | 微分方程 | 中等 | [查看](questions/differential-equations/2025-10-08-problem.md) |
 
-*显示最近50道题目，共85道题目*
+*显示最近50道题目，共86道题目*
 <!-- END_HISTORY_TABLE_PLACEHOLDER -->
 
 ## 🔗 分类浏览
