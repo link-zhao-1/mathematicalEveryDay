@@ -1362,5 +1362,22 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multivariable-differential/2025-12-05-problem.md",
     "titleHash": 0,
     "contentHash": 1025241225
+  },
+  {
+    "id": "1765013326750_xls9w7zwy",
+    "title": "幂级数求和与函数展开",
+    "category": "级数",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "级数",
+      "收敛",
+      "幂级数",
+      "ln"
+    ],
+    "createdAt": "2025-12-06T09:28:46.750Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/series/2025-12-06-problem.md",
+    "titleHash": 0,
+    "contentHash": 847121896
   }
 ]
