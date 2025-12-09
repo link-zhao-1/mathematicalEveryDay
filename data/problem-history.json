@@ -1413,5 +1413,21 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/probability-statistics/2025-12-08-problem.md",
     "titleHash": 0,
     "contentHash": 1570139982
+  },
+  {
+    "id": "1765272920757_pvlh5m28u",
+    "title": "计算曲线积分与曲面积分",
+    "category": "积分学",
+    "difficulty": "中等",
+    "keywords": [
+      "积分",
+      "向量",
+      "sin",
+      "cos"
+    ],
+    "createdAt": "2025-12-09T09:35:20.757Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/integral/2025-12-09-problem.md",
+    "titleHash": 0,
+    "contentHash": 914098413
   }
 ]
