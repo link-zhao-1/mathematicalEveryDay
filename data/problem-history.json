@@ -1429,5 +1429,20 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/integral/2025-12-09-problem.md",
     "titleHash": 0,
     "contentHash": 914098413
+  },
+  {
+    "id": "1765359380423_6j48sqk2s",
+    "title": "多元函数极值与条件极值的综合应用",
+    "category": "多元微分",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "连续",
+      "极值"
+    ],
+    "createdAt": "2025-12-10T09:36:20.423Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multivariable-differential/2025-12-10-problem.md",
+    "titleHash": 0,
+    "contentHash": 873291043
   }
 ]
