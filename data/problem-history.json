@@ -1444,5 +1444,19 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multivariable-differential/2025-12-10-problem.md",
     "titleHash": 0,
     "contentHash": 873291043
+  },
+  {
+    "id": "1765445844765_edi96kn60",
+    "title": "计算三重积分 $\\iiint_{\\Omega} z \\, dV$",
+    "category": "多重积分",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "积分"
+    ],
+    "createdAt": "2025-12-11T09:37:24.765Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multiple-integrals/2025-12-11-problem.md",
+    "titleHash": 1822425861,
+    "contentHash": 2054176520
   }
 ]
