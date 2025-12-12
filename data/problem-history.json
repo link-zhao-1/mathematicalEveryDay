@@ -1458,5 +1458,25 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multiple-integrals/2025-12-11-problem.md",
     "titleHash": 1822425861,
     "contentHash": 2054176520
+  },
+  {
+    "id": "1765532192968_6ocxddrh8",
+    "title": "多元函数极值与条件极值综合题",
+    "category": "多元微分",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "导数",
+      "微分",
+      "偏导",
+      "全微分",
+      "方程",
+      "极值",
+      "sin"
+    ],
+    "createdAt": "2025-12-12T09:36:32.968Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multivariable-differential/2025-12-12-problem.md",
+    "titleHash": 0,
+    "contentHash": 896785751
   }
 ]
