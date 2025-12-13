@@ -1478,5 +1478,20 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/multivariable-differential/2025-12-12-problem.md",
     "titleHash": 0,
     "contentHash": 896785751
+  },
+  {
+    "id": "1765618163812_ldw0wfhr6",
+    "title": "级数求和与函数展开",
+    "category": "级数",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "级数",
+      "收敛"
+    ],
+    "createdAt": "2025-12-13T09:29:23.813Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/series/2025-12-13-problem.md",
+    "titleHash": 0,
+    "contentHash": 1999783141
   }
 ]
