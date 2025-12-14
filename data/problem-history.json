@@ -1493,5 +1493,22 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/series/2025-12-13-problem.md",
     "titleHash": 0,
     "contentHash": 1999783141
+  },
+  {
+    "id": "1765704591806_ylj4qmwod",
+    "title": "求隐函数 $y(x)$ 的二阶导数 $\\frac{d^2 y}{dx^2}$",
+    "category": "微分学",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "导数",
+      "方程",
+      "tan",
+      "ln"
+    ],
+    "createdAt": "2025-12-14T09:29:51.806Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential/2025-12-14-problem.md",
+    "titleHash": 1222646816,
+    "contentHash": 400514577
   }
 ]
