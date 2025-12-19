@@ -1567,5 +1567,23 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/linear-algebra/2025-12-18-problem.md",
     "titleHash": 0,
     "contentHash": 2090645076
+  },
+  {
+    "id": "1766136943800_mj1kqs2pa",
+    "title": "求解二阶线性微分方程与参数曲线",
+    "category": "微分方程",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "微分",
+      "线性",
+      "齐次",
+      "方程",
+      "sin"
+    ],
+    "createdAt": "2025-12-19T09:35:43.800Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential-equations/2025-12-19-problem.md",
+    "titleHash": 0,
+    "contentHash": 1609524041
   }
 ]
