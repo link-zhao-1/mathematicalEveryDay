@@ -1645,5 +1645,18 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/integral/2025-12-23-problem.md",
     "titleHash": 0,
     "contentHash": 1218430701
+  },
+  {
+    "id": "1766568897248_5fmq5viee",
+    "title": "计算曲线积分 $\\int_{L} \\frac{x dy - y dx}{x^{2} + y^{2}}$",
+    "category": "积分学",
+    "difficulty": "中等",
+    "keywords": [
+      "积分"
+    ],
+    "createdAt": "2025-12-24T09:34:57.248Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/integral/2025-12-24-problem.md",
+    "titleHash": 392979651,
+    "contentHash": 663346053
   }
 ]
