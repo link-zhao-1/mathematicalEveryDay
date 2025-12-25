@@ -1658,5 +1658,21 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/integral/2025-12-24-problem.md",
     "titleHash": 392979651,
     "contentHash": 663346053
+  },
+  {
+    "id": "1766655270348_88rzrxxo2",
+    "title": "幂级数求和与函数项级数的一致收敛性",
+    "category": "级数",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "级数",
+      "收敛",
+      "幂级数"
+    ],
+    "createdAt": "2025-12-25T09:34:30.348Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/series/2025-12-25-problem.md",
+    "titleHash": 0,
+    "contentHash": 1852327096
   }
 ]
