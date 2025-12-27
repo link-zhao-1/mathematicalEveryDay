@@ -1691,5 +1691,20 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential-equations/2025-12-26-problem.md",
     "titleHash": 0,
     "contentHash": 1488921995
+  },
+  {
+    "id": "1766827864328_rnogxlfqq",
+    "title": "矩阵的幂与特征值",
+    "category": "线性代数",
+    "difficulty": "中等",
+    "keywords": [
+      "矩阵",
+      "行列式",
+      "特征值"
+    ],
+    "createdAt": "2025-12-27T09:31:04.328Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/linear-algebra/2025-12-27-problem.md",
+    "titleHash": 0,
+    "contentHash": 1587029861
   }
 ]
