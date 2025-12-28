@@ -1706,5 +1706,22 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/linear-algebra/2025-12-27-problem.md",
     "titleHash": 0,
     "contentHash": 1587029861
+  },
+  {
+    "id": "1766914288022_56j3jkyei",
+    "title": "连续型随机变量的函数分布与矩估计",
+    "category": "概率统计",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "连续",
+      "概率",
+      "随机",
+      "分布"
+    ],
+    "createdAt": "2025-12-28T09:31:28.022Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/probability-statistics/2025-12-28-problem.md",
+    "titleHash": 0,
+    "contentHash": 1183695940
   }
 ]

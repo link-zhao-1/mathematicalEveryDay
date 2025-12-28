@@ -5,8 +5,8 @@
 ## 📅 今日题目
 
 <!-- TODAY_PROBLEM_PLACEHOLDER -->
-📅 **2025-12-27** - [矩阵的幂与特征值](questions/linear-algebra/2025-12-27-problem.md)
-- **分类**: 线性代数
+📅 **2025-12-28** - [连续型随机变量的函数分布与矩估计](questions/probability-statistics/2025-12-28-problem.md)
+- **分类**: 概率统计
 - **难度**: 中等
 <!-- END_TODAY_PROBLEM_PLACEHOLDER -->
 
@@ -15,6 +15,7 @@
 <!-- HISTORY_TABLE_PLACEHOLDER -->
 | 日期 | 题目 | 分类 | 难度  | 链接 |
 |------|------|------|------|------|
+| 2025-12-28 | 连续型随机变量的函数分布与矩估计 | 概率统计 | 中等 | [查看](questions/probability-statistics/2025-12-28-problem.md) |
 | 2025-12-27 | 矩阵的幂与特征值 | 线性代数 | 中等 | [查看](questions/linear-algebra/2025-12-27-problem.md) |
 | 2025-12-26 | 求解二阶常系数线性微分方程 | 微分方程 | 中等 | [查看](questions/differential-equations/2025-12-26-problem.md) |
 | 2025-12-25 | 幂级数求和与函数项级数的一致收敛性 | 级数 | 中等 | [查看](questions/series/2025-12-25-problem.md) |
@@ -64,9 +65,8 @@
 | 2025-11-08 | 求解二阶变系数线性微分方程 | 微分方程 | 中等 | [查看](questions/differential-equations/2025-11-08-problem.md) |
 | 2025-11-06 | 三重积分计算:球坐标变换 | 多重积分 | 中等 | [查看](questions/multiple-integrals/2025-11-06-problem.md) |
 | 2025-11-05 | 多元函数极值与条件极值问题 | 多元微分 | 中等 | [查看](questions/multivariable-differential/2025-11-05-problem.md) |
-| 2025-11-04 | 矩阵特征值与特征向量的综合应用 | 线性代数 | 中等 | [查看](questions/linear-algebra/2025-11-04-problem.md) |
 
-*显示最近50道题目，共110道题目*
+*显示最近50道题目，共111道题目*
 <!-- END_HISTORY_TABLE_PLACEHOLDER -->
 
 ## 🔗 分类浏览
