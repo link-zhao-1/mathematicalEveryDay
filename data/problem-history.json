@@ -1738,5 +1738,21 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/linear-algebra/2025-12-29-problem.md",
     "titleHash": 0,
     "contentHash": 1489390954
+  },
+  {
+    "id": "1767087407377_es9eybdv7",
+    "title": "计算曲线积分与曲面积分",
+    "category": "积分学",
+    "difficulty": "中等",
+    "keywords": [
+      "积分",
+      "向量",
+      "sin",
+      "cos"
+    ],
+    "createdAt": "2025-12-30T09:36:47.377Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/integral/2025-12-30-problem.md",
+    "titleHash": 0,
+    "contentHash": 594440725
   }
 ]
