@@ -1769,5 +1769,22 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/linear-algebra/2025-12-31-problem.md",
     "titleHash": 0,
     "contentHash": 1370163859
+  },
+  {
+    "id": "1767260195910_yhws7q9w0",
+    "title": "幂级数求和与函数展开",
+    "category": "级数",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "级数",
+      "收敛",
+      "幂级数",
+      "ln"
+    ],
+    "createdAt": "2026-01-01T09:36:35.910Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/series/2026-01-01-problem.md",
+    "titleHash": 0,
+    "contentHash": 1851456849
   }
 ]

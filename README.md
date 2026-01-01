@@ -5,8 +5,8 @@
 ## 📅 今日题目
 
 <!-- TODAY_PROBLEM_PLACEHOLDER -->
-📅 **2025-12-31** - [矩阵的幂与特征值](questions/linear-algebra/2025-12-31-problem.md)
-- **分类**: 线性代数
+📅 **2026-01-01** - [幂级数求和与函数展开](questions/series/2026-01-01-problem.md)
+- **分类**: 级数
 - **难度**: 中等
 <!-- END_TODAY_PROBLEM_PLACEHOLDER -->
 
@@ -15,6 +15,7 @@
 <!-- HISTORY_TABLE_PLACEHOLDER -->
 | 日期 | 题目 | 分类 | 难度  | 链接 |
 |------|------|------|------|------|
+| 2026-01-01 | 幂级数求和与函数展开 | 级数 | 中等 | [查看](questions/series/2026-01-01-problem.md) |
 | 2025-12-31 | 矩阵的幂与特征值 | 线性代数 | 中等 | [查看](questions/linear-algebra/2025-12-31-problem.md) |
 | 2025-12-30 | 计算曲线积分与曲面积分 | 积分学 | 中等 | [查看](questions/integral/2025-12-30-problem.md) |
 | 2025-12-29 | 矩阵的幂与特征值 | 线性代数 | 中等 | [查看](questions/linear-algebra/2025-12-29-problem.md) |
@@ -64,9 +65,8 @@
 | 2025-11-13 | 幂级数求和与函数展开 | 级数 | 中等 | [查看](questions/series/2025-11-13-problem.md) |
 | 2025-11-11 | 计算旋转体体积与表面积 | 积分学 | 中等 | [查看](questions/integral/2025-11-11-problem.md) |
 | 2025-11-10 | 求解二阶线性微分方程 | 微分方程 | 中等 | [查看](questions/differential-equations/2025-11-10-problem.md) |
-| 2025-11-09 | 三重积分在柱坐标系下的计算 | 多重积分 | 中等 | [查看](questions/multiple-integrals/2025-11-09-problem.md) |
 
-*显示最近50道题目，共114道题目*
+*显示最近50道题目，共115道题目*
 <!-- END_HISTORY_TABLE_PLACEHOLDER -->
 
 ## 🔗 分类浏览
