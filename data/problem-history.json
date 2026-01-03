@@ -1801,5 +1801,22 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/linear-algebra/2026-01-02-problem.md",
     "titleHash": 0,
     "contentHash": 1780103894
+  },
+  {
+    "id": "1767432674114_r75qr6vxj",
+    "title": "求隐函数 $y(x)$ 的二阶导数",
+    "category": "微分学",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "导数",
+      "方程",
+      "tan",
+      "ln"
+    ],
+    "createdAt": "2026-01-03T09:31:14.115Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential/2026-01-03-problem.md",
+    "titleHash": 3871,
+    "contentHash": 2102544196
   }
 ]
