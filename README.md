@@ -5,8 +5,8 @@
 ## 📅 今日题目
 
 <!-- TODAY_PROBLEM_PLACEHOLDER -->
-📅 **2026-01-03** - [求隐函数 $y(x)$ 的二阶导数](questions/differential/2026-01-03-problem.md)
-- **分类**: 微分学
+📅 **2026-01-04** - [二维随机变量的联合分布与条件概率](questions/probability-statistics/2026-01-04-problem.md)
+- **分类**: 概率统计
 - **难度**: 中等
 <!-- END_TODAY_PROBLEM_PLACEHOLDER -->
 
@@ -15,6 +15,7 @@
 <!-- HISTORY_TABLE_PLACEHOLDER -->
 | 日期 | 题目 | 分类 | 难度  | 链接 |
 |------|------|------|------|------|
+| 2026-01-04 | 二维随机变量的联合分布与条件概率 | 概率统计 | 中等 | [查看](questions/probability-statistics/2026-01-04-problem.md) |
 | 2026-01-03 | 求隐函数 $y(x)$ 的二阶导数 | 微分学 | 中等 | [查看](questions/differential/2026-01-03-problem.md) |
 | 2026-01-02 | 矩阵的幂与特征值 | 线性代数 | 中等 | [查看](questions/linear-algebra/2026-01-02-problem.md) |
 | 2026-01-01 | 幂级数求和与函数展开 | 级数 | 中等 | [查看](questions/series/2026-01-01-problem.md) |
@@ -64,9 +65,8 @@
 | 2025-11-16 | 矩阵特征值与特征向量的综合应用 | 线性代数 | 中等 | [查看](questions/linear-algebra/2025-11-16-problem.md) |
 | 2025-11-15 | 多元函数极值与条件极值问题 | 多元微分 | 中等 | [查看](questions/multivariable-differential/2025-11-15-problem.md) |
 | 2025-11-14 | 三重积分在球坐标系下的计算 | 多重积分 | 中等 | [查看](questions/multiple-integrals/2025-11-14-problem.md) |
-| 2025-11-13 | 幂级数求和与函数展开 | 级数 | 中等 | [查看](questions/series/2025-11-13-problem.md) |
 
-*显示最近50道题目，共117道题目*
+*显示最近50道题目，共118道题目*
 <!-- END_HISTORY_TABLE_PLACEHOLDER -->
 
 ## 🔗 分类浏览

@@ -1818,5 +1818,22 @@
     "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/differential/2026-01-03-problem.md",
     "titleHash": 3871,
     "contentHash": 2102544196
+  },
+  {
+    "id": "1767519010355_vf49h5qdw",
+    "title": "二维随机变量的联合分布与条件概率",
+    "category": "概率统计",
+    "difficulty": "中等",
+    "keywords": [
+      "函数",
+      "连续",
+      "概率",
+      "随机",
+      "分布"
+    ],
+    "createdAt": "2026-01-04T09:30:10.355Z",
+    "filePath": "/home/runner/work/mathematicalEveryDay/mathematicalEveryDay/questions/probability-statistics/2026-01-04-problem.md",
+    "titleHash": 0,
+    "contentHash": 297325969
   }
 ]
